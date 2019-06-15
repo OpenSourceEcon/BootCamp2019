@@ -32,11 +32,17 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
+* [Kerk Phillips](https://sites.google.com/site/kerkphillips/), Congressional Budget Office
+* [John Rust](https://editorialexpress.com/jrust/), Georgetown University
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), HEC Lausanne
-* [John Stachurski](http://johnstachurski.net/), Australia National University
+* [Anthony Smith, Jr.](http://www.econ.yale.edu/smith/), Yale University
+* [Felix Tintelnot](http://felix-tintelnot.wikidot.com/), University of Chicago Economics
+* [Thomas Winberry](http://faculty.chicagobooth.edu/thomas.winberry/), University of Chicago Booth School of Business
 
 Graduate Instructors
-* TBA
+* Marlon Azinovic
+* Rebekah Dix
+* Jan Ertl
 
 ## 2. Boot Camp Schedule
 
