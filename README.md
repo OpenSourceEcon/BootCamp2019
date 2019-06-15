@@ -32,6 +32,7 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
+* [Felix Kubler](https://www.bf.uzh.ch/en/persons/kuebler-felix), University of Zurich
 * [Kerk Phillips](https://sites.google.com/site/kerkphillips/), Congressional Budget Office
 * [John Rust](https://editorialexpress.com/jrust/), Georgetown University
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), HEC Lausanne
