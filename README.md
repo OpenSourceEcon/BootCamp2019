@@ -40,9 +40,9 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Thomas Winberry](http://faculty.chicagobooth.edu/thomas.winberry/), University of Chicago Booth School of Business
 
 Graduate Instructors
-* Marlon Azinovic
-* Rebekah Dix
-* Jan Ertl
+* Marlon Azinovic, University of Zurich
+* Rebekah Dix, Massachusetts Institute of Technology
+* Jan Ertl, Oxford University
 
 ## 2. Boot Camp Schedule
 
