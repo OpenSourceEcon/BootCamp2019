@@ -2,6 +2,8 @@
 
 This public repository contains the training materials, tutorials, lecture notes, code, and problem sets for the seven-week Boot Camp of the Open Source Economics Laboratory (OSE Lab, [https://www.oselab.org/](https://www.oselab.org/)) at the University of Chicago, July 1 to August 9. The OSE Lab was founded by Dr. Richard W. Evans, Senior Lecturer and Associate Director at the University of Chicago M.A. Program in Computational Social Science. The OSE Lab is funded primarily from a 5-year grant from the Charles Koch Foundation. Part of this grant also included the creation of the Dynamic Analysis Center at the Baker Institute at Rice University, which is directed by John Diamond.
 
+This year's OSE Lab Boot Camp has an exciting new partnership with the Econometric Society's Dynamic Structural Economics Summer School and Conference. July 8-9, 12-14 will be the [Dynamic Structural Economics Summer School](https://dseconf.org/dse2019course-program#) organized by [John Rust](https://editorialexpress.com/jrust/) (Georgetown University), [Bertel Schjerning](http://bschjerning.com/) (University of Copenhagen), and [Fedor Iskhakov](http://fedor.iskh.me/) (Australia National University). The Dynamic Structural Economics Conference, "[Applications in Industrial Organization, Marketing, and Business](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html)" will take place on July 10-11 and is organized by [Sanjog Misra](https://www.chicagobooth.edu/faculty/directory/m/sanjog-misra) (Booth School of Business) and [Guenter Hitsch](https://www.chicagobooth.edu/faculty/directory/h/gunter-j-hitsch) (Booth School of Business). All OSE Lab students will be participants in both the DSE Summer School and in the conference.
+
 This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. This document has 12 sections.
 
 1. [OSM Lab leadership](https://github.com/OpenSourceMacro/BootCamp2019#1-ose-lab-leadership)
@@ -28,7 +30,7 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 
 **Instructors.** The OSE Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
-Senior Instructors and Presenters (in alphabetical order)
+OSE Lab Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
@@ -45,9 +47,51 @@ Graduate Instructors
 * Rebekah Dix, Massachusetts Institute of Technology
 * Jan Ertl, Oxford University
 
+[DSE Summer School](https://dseconf.org/dse2019course-program#) Instructors (in alphabetical order)
+* [Victor Aguirregabiria](http://individual.utoronto.ca/vaguirre/), University of Toronto
+* [Øystein Daljord](https://faculty.chicagobooth.edu/oystein.daljord/), University of Chicago Booth School of Business
+* [Paul Ellickson](http://paulellickson.com/), University of Rochester
+* [Guenter Hitsch](https://www.chicagobooth.edu/faculty/directory/h/gunter-j-hitsch), University of Chicago Booth School of Business
+* [Fedor Iskhakov](http://fedor.iskh.me/), Australia National University
+* [Michael Keane](https://www.business.unsw.edu.au/our-people/mikekeane), University of New South Wales Business School
+* [Robert A. Miller](https://www.cmu.edu/tepper/faculty-and-research/faculty-by-area/profiles/miller-robert.html), Carnegie Mellon University
+* [Sanjog Misra](https://www.chicagobooth.edu/faculty/directory/m/sanjog-misra), University of Chicago Booth School of Business
+* [Whitney Newey](https://economics.mit.edu/faculty/wnewey), MIT
+* [Ariel Pakes](https://scholar.harvard.edu/pakes/home), Harvard University
+* [John Rust](https://editorialexpress.com/jrust/), Georgetown University
+* [Bertel Schjerning](http://bschjerning.com/), University of Copenhagen
+
+[DSE Conference](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html) Presenters and Organizers (in alphabetical order)
+* [Bryan Bollinger](https://www.fuqua.duke.edu/faculty/bryan-bollinger), Duke University
+* [Cheng Chou](https://chengchou.github.io/), University of Leicester
+* [Giovanni Compiani](https://sites.google.com/berkeley.edu/giovannicompiani/home), University of California, Berkeley
+* [Paul Ellickson](http://paulellickson.com/), University of Rochester
+* [Guenter Hitsch](https://www.chicagobooth.edu/faculty/directory/h/gunter-j-hitsch), University of Chicago Booth School of Business
+* [Jean Francois Houde](https://jfhoude.wiscweb.wisc.edu/), University of Wisconsin-Madison
+* [Fedor Iskhakov](http://fedor.iskh.me/), Australia National University
+* [Philipp Müller](https://www.business.uzh.ch/en/research/professorships/qba/members/mueller.html), University of Zurich
+* [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan), University of Chicago Booth School of Business
+* [Charles Murray](https://murryecon.weebly.com/), Boston College
+* [Harikesh Nair](https://www.gsb.stanford.edu/faculty-research/faculty/harikesh-s-nair), Stanford Graduate School of Business
+* [Aviv Nevo](https://economics.sas.upenn.edu/people/aviv-nevo), University of Pennsylvania
+* [Matthew Osborne](https://sites.google.com/site/matthewosborne/), University of Toronto
+* [Harry Paarsch](https://business.ucf.edu/person/harry-paarsch/), University of Central Florida
+* [Ariel Pakes](https://scholar.harvard.edu/pakes/home), Harvard University
+* [Eduardo Souza-Rodrigues](http://individual.utoronto.ca/souza_rodrigues/), University of Toronto
+* [John Rust](https://editorialexpress.com/jrust/), Georgetown University
+* [Bertel Schjerning](http://bschjerning.com/), University of Copenhagen
+* [Vira Semenova](https://economics.mit.edu/grad/vsemen), Harvard University
+* [Timothy Simcoe](http://people.bu.edu/tsimcoe/), Boston University
+* [K. Sudhir](https://som.yale.edu/faculty/k-sudhir), Yale School of Management
+* [Ryan Webb](http://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Webb), University of Toronto
+* [Ruli Xiao](https://sites.google.com/site/iueconomicsrulixiao/), Indiana University
+
+
+
+
 ## 2. Boot Camp Schedule
 
-The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The curriculum consists of equal parts economic theory and computational methods.
+The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. The curriculum consists of economic theory and computational methods with some math and statistics.
 
 **TBA**
 
