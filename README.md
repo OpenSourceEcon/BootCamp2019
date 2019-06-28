@@ -91,15 +91,7 @@ Graduate Instructors
 
 The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. Workshop days on July 8-9 and 12-14 will be held at the University of Chicago Gleacher Center in Downtown Chicago. And the DSE conference will be held at the Booth School of Business. The curriculum consists of economic theory and computational methods with some math and statistics.
 
-**TBA**
-
-<!-- |      Broad topic      | Days of week |      Time      |
-|:--------------------- |:------------ | --------------:|
-| [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) | M, W, F |  8:00-9:50am   |
-| [Economics](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ) | M, W, F | 10:00-11:50am  |
-| [Computational Methods](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation) | T, Th | 8:00 - 11:50am |
-
-Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule), [econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule), and [computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) detailed schedule pages.
+We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic_detail_2019.pdf) on this repository. Below is a summary schedule of topics. More detailed schedules are on the respective [math](), [econ](), and [computation]() detailed schedule pages.
 
 ### Week 1
 
@@ -116,7 +108,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **TBA**
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-2) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-2) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
 6-26  | T   |                      |                      | Data visualization   |     |
@@ -227,7 +219,7 @@ If using LaTex in this editor, the following packages are helpful:
 * latexer
 * pdf-view
 
-In addition, you will also want to download the [Skim](http://skim-app.sourceforge.net) PDF viewer to aid in displaying PDF files compiled from TeX with Atom.
+In addition, if you are using a Mac, you will also want to download the [Skim](http://skim-app.sourceforge.net) PDF viewer to aid in displaying PDF files compiled from TeX with Atom.
 
 
 ### 4.2. Sublime Text 3
