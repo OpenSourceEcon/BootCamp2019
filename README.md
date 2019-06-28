@@ -28,7 +28,7 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 
 **Logistics and finances: Marty Evans, OSE Lab Administrative Director [(martye@uchicago.edu)](mailto:martye@uchicago.edu)**: Marty Evans is the Administrative Director of the OSE Lab. She coordinates the student and instructor travel, housing, and financial matters as well as other logistical needs.
 
-**Instructors.** The OSE Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 OSE Lab Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
@@ -87,11 +87,9 @@ Graduate Instructors
 * [Ruli Xiao](https://sites.google.com/site/iueconomicsrulixiao/), Indiana University
 
 
-
-
 ## 2. Boot Camp Schedule
 
-The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. The curriculum consists of economic theory and computational methods with some math and statistics.
+The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. Workshop days on July 8-9 and 12-14 will be held at the University of Chicago Gleacher Center in Downtown Chicago. And the DSE conference will be held at the Booth School of Business. The curriculum consists of economic theory and computational methods with some math and statistics.
 
 **TBA**
 
@@ -105,17 +103,20 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 1
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-1) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-1) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Computation]() (8-10am) | [Econ]() (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-18  | M   | Intro Measure Thry | Dynamic programming |              | Safety office |
+6-18  | M   | Numerical derivatives | Dynamic programming |              | Safety office |
 6-19  | T   |              |                           | Python intro, standard library |     |
-6-20  | W   | Intro Measure Thry | Dynamic programming |              |     |
-6-21  | Th  |              |                           | Object oriented programming |     |
-6-22  | F   | Intro Measure Thry | Dynamic programming |              | [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
+6-20  | W   | Numerical integration | Dynamic programming |              |     |
+6-21  | Th  |              |                           |  |     |
+6-22  | F   | Object oriented progr. | Dynamic programming |              |  |
 
 ### Week 2
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-2) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+
+**TBA**
+
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-2) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
 6-26  | T   |                      |                      | Data visualization   |     |
@@ -125,7 +126,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 3
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-2  | M   | Spectral theory     | Overlapping generations models |   |     |
 7-3  | T   |                     |                                | QR, SVD decomposition, SVD  |     |
@@ -135,7 +136,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 4
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-4) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-4) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-4) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-4) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
@@ -147,7 +148,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 5
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-5) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-5) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-5) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-5) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
 7-17  | T   |                     |                            | High performance computing |     |
@@ -158,23 +159,13 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 6
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-6) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-6) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
 7-24  | T   |                        |               | Num. diff. and integr. |     |
 7-25  | W   | Nonlinear optimization | Asset Pricing |  | Sebastian James |
 7-26  | Th  |                        |               | Simplex, line search, Newton's |     |
 7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA |
-
-### Week 7
-
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-7) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-7) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-30 | M  | CGE modeling | Heterogeneous agent models |                     |     |
-7-31 | T  |              |                            | Newton's, quasi Newton       |     |
-8-1  | W  | CGE modeling | Heterogeneous agent models |                     |     |
-8-2  | Th | CGE modeling | Heterogeneous agent models |                     |     |
-8-3  | F  | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due | TBA | -->
 
 This will be an intensive six weeks. We expect that your attendance of lectures plus homework time might average 50-60 hours per week of work.
 
