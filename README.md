@@ -28,7 +28,7 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 
 **Logistics and finances: Marty Evans, OSE Lab Administrative Director [(martye@uchicago.edu)](mailto:martye@uchicago.edu)**: Marty Evans is the Administrative Director of the OSE Lab. She coordinates the student and instructor travel, housing, and financial matters as well as other logistical needs.
 
-**Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 OSE Lab Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
@@ -91,11 +91,11 @@ Graduate Instructors
 
 The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. Workshop days on July 8-9 and 12-14 will be held at the University of Chicago Gleacher Center in Downtown Chicago. And the DSE conference will be held at the Booth School of Business. The curriculum consists of economic theory and computational methods with some math and statistics.
 
-We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic_detail_2019.pdf) on this repository. Below is a summary schedule of topics. More detailed schedules are on the respective [math](), [econ](), and [computation]() detailed schedule pages.
+We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic_detail_2019.pdf) on this repository. Below is a summary schedule of topics. More detailed schedules are on the respective [econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ) and [computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 ### Week 1
 
-| Date | Day | [Computation]() (8-10am) | [Econ]() (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
+| Date | Day | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ) (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-18  | M   | Numerical derivatives | Dynamic programming |              | Safety office |
 6-19  | T   |              |                           | Python intro, standard library |     |
