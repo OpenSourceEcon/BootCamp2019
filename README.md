@@ -8,16 +8,16 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 
 1. [OSM Lab leadership](#1-ose-lab-leadership)
 2. [Boot Camp schedule](#2-boot-camp-schedule)
-3. [Instructions for installing the Anaconda distribution of Python](#Instructions-for-installing-the-Anaconda-distribution-of-Python)
-4. [Text editor suggestions](#Text-editor-suggestions)
-5. [PEP 8, docstring commenting, and module structure](#PEP-8,-docstring-commenting,-and-module-structure)
-6. [Using LaTeX](#Using-LaTeX)
-7. [Git and GitHub.com tutorial](#Git-and-GitHub-tutorial)
-8. [Jupyter notebooks](#Jupyter-Notebooks)
-9. [Python tutorials](#Python-tutorials)
-10. [Other Books](#Other-Books)
-11. [C++ tutorials](#C++-tutorials)
-12. [References](#References)
+3. [Instructions for installing the Anaconda distribution of Python](#3instructions-for-installing-the-anaconda-distribution-of-python)
+4. [Text editor suggestions](#4text-editor-suggestions)
+5. [PEP 8, docstring commenting, and module structure](#5pep-8-docstring-commenting,-and-module-structure)
+6. [Using LaTeX](#6using-latex)
+7. [Git and GitHub.com tutorial](#7git-and-gitHub-tutorial)
+8. [Jupyter notebooks](#8jupyter-notebooks)
+9. [Python tutorials](#9python-tutorials)
+10. [Other Books](#10other-books)
+11. [C++ tutorials](#11c++-tutorials)
+12. [References](#12references)
 
 
 ## 1. OSE Lab Leadership
