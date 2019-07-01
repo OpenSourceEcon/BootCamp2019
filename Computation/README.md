@@ -7,12 +7,12 @@ This directory in the repository contains all the materials for the computationa
 
 We expect students in the Boot Camp to be jumping into Python at a level beyond an absolute beginner. Some Great resources for getting to that point include the following Jupyter Notebooks in the [Tutorials](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Tutorials) folder of this repository.
 
-1. [PythonReadIn.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonReadIn.ipynb). This Jupyter notebook provides instruction on basic Python I/O, reading data into Python, and saving data to disk.
-2. [PythonNumpyPandas.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonNumpyPandas.ipynb). This Jupyter notebook provides instruction on working with data using `NumPy` as well as Python's powerful data library `pandas`.
-3. [PythonDescribe.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonDescribe.ipynb). This Jupyter notebook provides instruction on describing, slicing, and manipulating data in Python.
-4. [PythonFuncs.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonFuncs.ipynb). This Jupyter notebook provides instruction on working with and writing Python functions.
-5. [PythonVisualize.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonVisualize.ipynb). This Jupyter notebook provides instruction on creating visualizations in Python.
-6. [PythonRootMin.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonRootMin.ipynb). This Jupyter notebook provides instruction on implementing univariate and multivariate root finders and unconstrained and constrained minimizers using functions in the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html) sub-library.
+1. [PythonReadIn.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonReadIn.ipynb). This Jupyter notebook provides instruction on basic Python I/O, reading data into Python, and saving data to disk.
+2. [PythonNumpyPandas.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonNumpyPandas.ipynb). This Jupyter notebook provides instruction on working with data using `NumPy` as well as Python's powerful data library `pandas`.
+3. [PythonDescribe.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonDescribe.ipynb). This Jupyter notebook provides instruction on describing, slicing, and manipulating data in Python.
+4. [PythonFuncs.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonFuncs.ipynb). This Jupyter notebook provides instruction on working with and writing Python functions.
+5. [PythonVisualize.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonVisualize.ipynb). This Jupyter notebook provides instruction on creating visualizations in Python.
+6. [PythonRootMin.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonRootMin.ipynb). This Jupyter notebook provides instruction on implementing univariate and multivariate root finders and unconstrained and constrained minimizers using functions in the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html) sub-library.
 
 We also recommend the ["Intro to Python" lab](http://www.acme.byu.edu/wp-content/uploads/2017/08/PythonIntro.pdf) from Brigham Young University's Math Department's Applied and Computational Math Emphasis (ACME) as well as the ["An Introductory Example"](https://lectures.quantecon.org/py/python_by_example.html) and ["Python Essentials"](https://lectures.quantecon.org/py/python_essentials.html) lectures from [QuantEcon](https://lectures.quantecon.org/py/).
 
@@ -25,15 +25,15 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-1  | M (8-9:50AM)  |   Numerical Differentiation  |     |  [ACME: Numerical Differentiation](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/Differentiation.pdf)   |     |
-7-2  | T (8AM-12PM)  |     | | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
-|     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7-8, 6pm |
-|     |     |     |                 | [ACME: Data Visualization](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/DataVisualization.pdf) |  |
-|     |     |     |                 | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/MatplotlibIntro.pdf) |  |
+7-1  | M (8-9:50AM)  |   Numerical Differentiation  |     |  [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/Differentiation.pdf)   |     |
+7-2  | T (8AM-12PM)  |     | | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
+|     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7-8, 6pm |
+|     |     |     |                 | [ACME: Data Visualization](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/DataVisualization.pdf) |  |
+|     |     |     |                 | [ACME: Intro to Matplotlib](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/MatplotlibIntro.pdf) |  |
 7-3  | W (8-9:50AM)  |  Numerical Integration   |         |          |    |
 7-4 | Th  |     | | No Class - Holiday |   |
-7-5  | F (8-9:50AM)  |     |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
-|     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
+7-5  | F (8-9:50AM)  |     |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
+|     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
 
 <!-- ### Week 2
 
