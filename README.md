@@ -6,8 +6,8 @@ This year's OSE Lab Boot Camp has an exciting new partnership with the Econometr
 
 This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. This document has 12 sections.
 
-1. [OSM Lab leadership](#ose-lab-leadership)
-2. [Boot Camp schedule](#Boot-Camp-Schedule)
+1. [OSM Lab leadership](#1-ose-lab-leadership)
+2. [Boot Camp schedule](#2-boot-camp-schedule)
 3. [Instructions for installing the Anaconda distribution of Python](#Instructions-for-installing-the-Anaconda-distribution-of-Python)
 4. [Text editor suggestions](#Text-editor-suggestions)
 5. [PEP 8, docstring commenting, and module structure](#PEP-8,-docstring-commenting,-and-module-structure)
