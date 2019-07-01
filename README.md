@@ -6,18 +6,18 @@ This year's OSE Lab Boot Camp has an exciting new partnership with the Econometr
 
 This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. This document has 12 sections.
 
-1. [OSM Lab leadership](https://github.com/OpenSourceMacro/BootCamp2019#1-ose-lab-leadership)
-2. [Boot Camp schedule](https://github.com/OpenSourceMacro/BootCamp2019#2-boot-camp-schedule)
-3. [Instructions for installing the Anaconda distribution of Python](https://github.com/OpenSourceMacro/BootCamp2019#3-instructions-for-installing-the-anaconda-distribution-of-python)
-4. [Text editor suggestions](https://github.com/OpenSourceMacro/BootCamp2019#4-text-editor-suggestions)
-5. [PEP 8, docstring commenting, and module structure](https://github.com/OpenSourceMacro/BootCamp2019#5-pep-8-docstring-commenting-and-module-structure)
-6. [Using LaTeX](https://github.com/OpenSourceMacro/BootCamp2019#6-using-latex)
-7. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2019#7-git-and-github-tutorial)
-8. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2019#8-jupyter-notebooks)
-9. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2019#9-python-tutorials)
-10. [Other Books](https://github.com/OpenSourceMacro/BootCamp2019#10-other-books)
-11. [C++ tutorials](https://github.com/OpenSourceMacro/BootCamp2019#11-c-tutorials)
-12. [References](https://github.com/OpenSourceMacro/BootCamp2019#12-references)
+1. [OSM Lab leadership](#1-ose-lab-leadership)
+2. [Boot Camp schedule](#2-boot-camp-schedule)
+3. [Instructions for installing the Anaconda distribution of Python](#3-instructions-for-installing-the-anaconda-distribution-of-python)
+4. [Text editor suggestions](#4-text-editor-suggestions)
+5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting-and-module-structure)
+6. [Using LaTeX](#6-using-latex)
+7. [Git and GitHub.com tutorial](#7-git-and-gitHub-tutorial)
+8. [Jupyter notebooks](#8-jupyter-notebooks)
+9. [Python tutorials](#9-python-tutorials)
+10. [Other Books](#10-other-books)
+11. [C++ tutorials](#11-c-tutorials)
+12. [References](#12-references)
 
 
 ## 1. OSE Lab Leadership
@@ -28,7 +28,7 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 
 **Logistics and finances: Marty Evans, OSE Lab Administrative Director [(martye@uchicago.edu)](mailto:martye@uchicago.edu)**: Marty Evans is the Administrative Director of the OSE Lab. She coordinates the student and instructor travel, housing, and financial matters as well as other logistical needs.
 
-**Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2019/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 OSE Lab Senior Instructors and Presenters (in alphabetical order)
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
@@ -91,11 +91,11 @@ Graduate Instructors
 
 The OSE Lab Boot Camp 2019 begins on Monday, July 1 and ends on Friday, August 9. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The exception is the Dynamic Structural Economics Workshop and Conference held during week 2, July 8-14. Workshop days on July 8-9 and 12-14 will be held at the University of Chicago Gleacher Center in Downtown Chicago. And the DSE conference will be held at the Booth School of Business. The curriculum consists of economic theory and computational methods with some math and statistics.
 
-We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic_detail_2019.pdf) on this repository. Below is a summary schedule of topics. More detailed schedules are on the respective [math](), [econ](), and [computation]() detailed schedule pages.
+We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic_detail_2019.pdf) on this repository. Below is a summary schedule of topics. More detailed schedules are on the respective [econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ) and [computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 ### Week 1
 
-| Date | Day | [Computation]() (8-10am) | [Econ]() (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
+| Date | Day | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ) (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-18  | M   | Numerical derivatives | Dynamic programming |              | Safety office |
 6-19  | T   |              |                           | Python intro, standard library |     |
@@ -357,4 +357,3 @@ Although we will be using Python for most of the Boot Camp, we will use some C++
 * McKinney, Wes, *Python for Data Analysis*, 2nd edition, O'Reilly Media, Inc. (2018).
 * Ok, Efe A., *Real Analysis with Economic Applications*, Princeton University Press (2007).
 * Stokey, Nancy L., and Robert E. Lucas, Jr. with Edward C. Prescott, *Recursive Methods in Economic Dynamics*, Harvard University Press (1989).
-
