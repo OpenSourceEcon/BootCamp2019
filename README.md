@@ -10,13 +10,13 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 2. [Boot Camp schedule](#2-boot-camp-schedule)
 3. [Instructions for installing the Anaconda distribution of Python](#3-instructions-for-installing-the-anaconda-distribution-of-python)
 4. [Text editor suggestions](#4-text-editor-suggestions)
-5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting,-and-module-structure)
+5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting-and-module-structure)
 6. [Using LaTeX](#6-using-latex)
 7. [Git and GitHub.com tutorial](#7-git-and-gitHub-tutorial)
 8. [Jupyter notebooks](#8-jupyter-notebooks)
 9. [Python tutorials](#9-python-tutorials)
 10. [Other Books](#10-other-books)
-11. [C++ tutorials](#11-c++-tutorials)
+11. [C++ tutorials](#11-c-tutorials)
 12. [References](#12-references)
 
 
