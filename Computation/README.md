@@ -1,11 +1,11 @@
-# OSM Lab: Computational Methods Section Materials
+# OSE Lab: Computational Methods Section Materials
 
-This directory in the repository contains all the materials for the computational methods section of the OSM Lab Boot Camp.
+This directory in the repository contains all the materials for the computational methods section of the OSE Lab Boot Camp.
 
 
 ## Prerequisite and tutorial resources
 
-We expect students in the Boot Camp to be jumping into Python at a level beyond an absolute beginner. Some Great resources for getting to that point include the following Jupyter Notebooks in the [Tutorials](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Tutorials) folder of this repository.
+We expect students in the Boot Camp to be jumping into Python at a level beyond an absolute beginner. Some Great resources for getting to that point include the following Jupyter Notebooks in the [Tutorials](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Tutorials) folder of this repository.
 
 1. [PythonReadIn.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonReadIn.ipynb). This Jupyter notebook provides instruction on basic Python I/O, reading data into Python, and saving data to disk.
 2. [PythonNumpyPandas.ipynb](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Tutorials/PythonNumpyPandas.ipynb). This Jupyter notebook provides instruction on working with data using `NumPy` as well as Python's powerful data library `pandas`.
@@ -19,20 +19,20 @@ We also recommend the ["Intro to Python" lab](http://www.acme.byu.edu/wp-content
 
 ## Schedule
 
-The computational methods lab sessions for the OSM Lab will be held from 8:00-11:50am, Tuesday and Thursday in Saieh Hall, Room 247. The lab files in the schedule under the "Materials column" that start with "ACME" come from the Brigham Young University Math Department's [Applied and Computational Math Emphasis (ACME program)](http://www.acme.byu.edu/). These computational labs are open source. We cover only a subset of these excellent applied math Python labs, which are available in their entirety at [http://www.acme.byu.edu/2017-2018-materials/](http://www.acme.byu.edu/2017-2018-materials/). We highly recommend that you take time after the Boot Camp to work through some of the other labs that are available to you.
+The computational methods lab sessions for the OSE Lab will usually be held from 8:00-11:50am, Tuesday and Thursday in Saieh Hall, Room 247. The lab files in the schedule under the "Materials column" that start with "ACME" come from the Brigham Young University Math Department's [Applied and Computational Math Emphasis (ACME program)](http://www.acme.byu.edu/). These computational labs are open source. We cover only a subset of these excellent applied math Python labs, which are available in their entirety at [http://www.acme.byu.edu/2017-2018-materials/](http://www.acme.byu.edu/2017-2018-materials/). We highly recommend that you take time after the Boot Camp to work through some of the other labs that are available to you.
 
 ### Week 1
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-1  | M (8-9:50AM)  |   Numerical Differentiation  |    |  [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/ACME_NumDiff.pdf)   |  Comp Problem Set 1 (Part 1)   |
-7-2  | T (8AM-12PM)  |  Python Intro   |  | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | Comp Problem Set 1 (Part 2)
-|     |     |     |                | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7-8, 6pm |
+7-1  | M (8-9:50AM)  |   Numerical Differentiation  |    |  [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/ACME_NumDiff.pdf)   |  Comp Problem Set 1 |
+7-2  | T (8AM-12PM)  |  Python Intro   |  | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | due M, 7/8, 6pm |
+|     |     |     |                | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) |  |
 |     |     |     |                 | [ACME: Data Visualization](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/DataVisualization.pdf) |  |
 |     |     |     |                 | [ACME: Intro to Matplotlib](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/MatplotlibIntro.pdf) |  |
-7-3  | W (8-9:50AM)  |  Numerical Integration   |         |    [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/NumIntegr.ipynb)      |    |
+7-3  | W (8-9:50AM)  |  Numerical Integration   |         |    [Evans integration notebook](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/NumIntegr.ipynb)      |    |
 7-4 | Th  |     | | No Class - Holiday |   |
-7-5  | F (8-9:50AM)  |  Objected Oriented Programming   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
+7-5  | F (8AM-12PM)  |  Objected Oriented Programming   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
 |     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
 
 <!-- ### Week 2
