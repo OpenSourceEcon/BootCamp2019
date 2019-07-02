@@ -34,7 +34,7 @@ The computational methods lab sessions for the OSE Lab will usually be held from
 7-4 | Th  |     | | No Class - Holiday |   |
 7-5  | F (8AM-9:50AM)  |  Objected Oriented Programming   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
 |     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
-|     |     |     |                 | [ACME: Newton's Method](?) |  |
+|     |     |     |                 | [ACME: Newton's Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifIntLin/NewtonsMethod.pdf) |  |
 
 <!-- ### Week 2
 
