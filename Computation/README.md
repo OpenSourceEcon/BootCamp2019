@@ -26,7 +26,7 @@ The computational methods lab sessions for the OSE Lab will usually be held from
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-1  | M (8-9:50AM)  |   Numerical Differentiation  |    |  [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/ACME_NumDiff.pdf)   |  [Comp Problem Set 1a](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/DifInt_probset1a.pdf) |
-7-2  | T (8AM-12PM)  |  Python Intro   |  | [ACME: Intro to NumPy](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Problem Set 1b](?) |
+7-2  | T (8AM-12PM)  |  Python Intro   |  | [ACME: Intro to NumPy](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Problem Set 1b](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
 |     |     |     |                | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7/8, 11pm |
 |     |     |     |                 | [ACME: Data Visualization](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/DataVisualization.pdf) |  |
 |     |     |     |                 | [ACME: Intro to Matplotlib](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/MatplotlibIntro.pdf) |  |
