@@ -101,7 +101,7 @@ We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic
 6-19  | T   |              |                           | Python intro, standard library |     |
 6-20  | W   | Numerical integration | Dynamic programming |              |     |
 6-21  | Th  |              |                           |  |     |
-6-22  | F   | Object oriented progr. | Dynamic programming |              |  |
+6-22  | F   | Newton's method | Dynamic programming | Object oriented progr. |  |
 
 ### Week 2
 
