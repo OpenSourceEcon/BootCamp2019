@@ -1,0 +1,477 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{amsmath, amsfonts, amscd, amssymb, amsthm}
+\usepackage{graphicx}
+%\usepackage{import}
+\usepackage{versions}
+\usepackage{crop}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{hyperref}
+\usepackage{ifthen}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{placeins}
+\usepackage{framed}
+\usepackage{enumitem}
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{lscape}
+\usepackage{float,color, colortbl}
+%\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\usepackage{tabu}
+\usepackage{appendix}
+\usepackage{listings}
+
+
+\include{thmstyle}
+\bibliographystyle{econometrica}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\ip}[2]{\langle #1,#2 \rangle}
+
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+%\numberwithin{equation}{document}
+\graphicspath{{./Figures/}}
+\renewcommand\theenumi{\roman{enumi}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\crop
+\makeindex
+
+
+\begin{document}
+
+\begin{titlepage}
+	\title{Open Source Macroeconomics Laboratory Boot Camp \\ Linearization Methods}
+	\author{Kerk Phillips\\ \emph{Congressional Budget Office}}
+	\date{\LARGE{2019}}
+	\maketitle
+\end{titlepage}
+
+\begin{spacing}{1.5}
+
+%section 1
+\section{Log-Linear Approximations}\label{Linear_LogLinApprox}
+	Log-linear approximations are a very common way of solving and simulating DSGE models. Recently, due to the easy availability of the software package, Dynare, higher-order approximations have begun to replace these methods. The methods are nonetheless useful as a step to understanding higher-order approximations. In many cases the computational simplicity of these approximations may be worth the loss of accuracy relative to the higher-order methods.
+
+	%subsection 1.1
+	\subsection{A General Method}\label{Linear_GenLogLin}
+		Let us first present log-linearization in a very general way. We follow the notation in \cite{Uhlig1999} in the discussion that follows. Once we understand this in general, we will return to our baseline DSGE model and use it as an example.
+
+		Let us group our model's variables into two groups as above. $Z_t$ is a vector of exogenous state variables. $X_t$ will be a vector of endogenous state variables. Recall we can include non-state variables in this vector without loss of generality as long as there exists a subset of the elements in $X_t$ and $Z_t$ that is sufficient to describe the state of the economy. Let $n_X$ be the cardinality of $X_t$ and $n_Z$ be the cardinality of $Z_t$.
+
+		We will assume that $Z_t$ follows first-order vector autoregression for its law of motion.
+		\begin{equation}\label{Linear_ZVARLogLin}
+		Z_t = (I-N)\bar Z + N Z_{t-1} + \ve_t
+		\end{equation}
+		$N$ is a $n_Z\times n_Z$ square matrix.
+
+		We will take the characterizing equations for the model and write them as a vector of functions in the following form:
+		\begin{equation}\label{Linear_GammaLogLin}
+		E_t\{\Gamma (X_{t+1},X_t,X_{t-1},Z_{t+1},Z_t)\} = 1
+		\end{equation}
+		$X_{t+1},X_t$ and $X_{t-1}$ are $n_X \times 1$ vectors. $Z_{t+1}$ and $Z_t$ are $n_Z \times 1$ vectors and $\Gamma$ outputs a $n_X\times 1$ vector.
+
+		We next take the natural logarithm of all these functions and apply a Taylor-series expansion to them, expanding about the steady state values of $X$ and $Z$. We keep only the constants and linear terms and discard all higher-order terms in the expansion. Because we have discarded these terms the equations we have derived are only approximations.
+
+		\begin{equation}\label{Linear_Approx1LogLin}
+		 E_t\left\{\ln \Gamma (\bar X,\bar X,\bar X,\bar Z,\bar Z) + \sum_{i\in{\mathcal{I}}}\frac{\Gamma_i (\bar X,\bar X,\bar X,\bar Z,\bar Z)}{\Gamma (\bar X,\bar X,\bar X,\bar Z,\bar Z)}(i-\bar i) \right\}= 0
+		\end{equation}
+		where $\mathcal{I}=\{X_{t+1},X_t,X_{t-1},Z_{t+1},Z_t\}$ and $\Gamma_i$ denotes the matrix of derivatives of the vector of functions $\Gamma$ with respect to element $i$ in $\mathcal{I}$.
+
+		Since the steady state values of $X$ and $Z$ satisfy \eqref{Linear_GammaLogLin}, the first term in \eqref{Linear_Approx1LogLin} is zero. We can also divide each term in the sum by the vector of variables for which the derivative is taken to get:
+		\begin{equation}
+		 E_t\left\{ \sum_{i\in{\mathcal{I}}}\frac{\bar i\Gamma_i (\bar X,\bar X,\bar X,\bar Z,\bar Z)}{\Gamma (\bar X,\bar X,\bar X,\bar Z,\bar Z)}\frac{i-\bar i}{\bar i}\right\}= 0
+		\end{equation}
+
+		We can write this in a more compact form using Uhlig's notation as:
+		\begin{equation}\label{Linear_Approx3LogLin}
+		E_t\left\{F \tilde X_{t+1} +G \tilde X_{t} +H \tilde X_{t-1} +L \tilde Z_{t+1} +M \tilde Z_{t}  \right\}= 0
+		\end{equation}
+		where a tilde over a variable indicates its percent deviation from its steady state value for $X$, i.e. $\tilde X_t \equiv \frac{X_t-\bar X}{\bar X}$, and an absolute deviation from the steady state value for $Z$, i.e. $\tilde Z_t \equiv Z_t-\bar Z$. The coefficients are matrices of derivatives evaluated at the steady state values. For example, $F \equiv \frac{\bar X \Gamma_{X_{t+1}} (\bar X,\bar X,\bar X,\bar Z,\bar Z)}{\Gamma (\bar X,\bar X,\bar X,\bar Z,\bar Z)}$, and $L \equiv \frac{\Gamma_{Z_{t+1}} (\bar X,\bar X,\bar X,\bar Z,\bar Z)}{\Gamma (\bar X,\bar X,\bar X,\bar Z,\bar Z)}$. $F, G$ and $H$ are $n_X \times n_X$ square matrices, while $L$ and $M$ are $n_X \times n_Z$.
+
+		With this notation in place, we can also rewrite \eqref{Linear_ZVARLogLin} as:
+		\begin{equation}\label{Linear_ZVAR2LogLin}
+		\tilde Z_t =  N \tilde Z_{t-1} + \ve_t
+		\end{equation}
+
+		We now hypothesize that the transition function, $X_{t} = \Phi(X_{t-1},Z_t)$ can also be log-linearly approximated by
+		\begin{equation}\label{Linear_TransLogLin}
+		\tilde X_{t} =  P \tilde X_{t-1} + Q \tilde Z_t
+		\end{equation}
+		where $P$ is a $n_X \times n_X$ square matrix and $Q$ is $n_X \times n_Z$.
+
+		We know the values of $F,G,H,L$ and $M$ since these are functions of the model parameters and steady state values (which are also functions of the parameters). $N$ can be considered as part of the parameter set. We do not know the values of $P$ and $Q$, however.
+
+		We can solve for them by iteratively substituting appropriate versions of \eqref{Linear_TransLogLin} and \eqref{Linear_ZVAR2LogLin} into \eqref{Linear_Approx3LogLin}.
+
+		After some tedious matrix algebra (see Exercise 13) this reduces to:
+		\begin{equation}\label{Linear_Trans2LogLin}
+		[(FP+G)P+H]\tilde X_{t-1} + [(FQ+L)N+(FP+G)Q+M]\tilde Z_t = 0
+		\end{equation}
+
+		\eqref{Linear_Trans2LogLin} is true for all values of $X_{t-1}$ and $Z_t$. This means that the coefficients on these terms in the equation must be zero. In turn, this gives us two equations that implicitly define $P$ and $Q$.
+		\begin{equation}\label{Linear_PcondLogLin}
+		FP^2+GP+H = 0
+		\end{equation}
+		\begin{equation}\label{Linear_QcondLogLin}
+		FQN +(FP+G)Q +(LN+M) = 0
+		\end{equation}
+
+		Condition \eqref{Linear_PcondLogLin} requires solving a matrix quadratic in $P$. Once $P$ is known, condition \eqref{Linear_QcondLogLin} can be used to solve for a value of $Q$.
+
+	%subsection 1.2
+	\subsection{Analytical Log-Linearization}
+		Before proceeding to our particular model, let's first discuss how one log-linearizes characteristic equations analytically.
+
+		Suppose we have a characterizing equation like that below.
+		\begin{equation}
+		E_t\left\{\frac{x_t^b}{x_{t-1}^d}\right\}=1 \nonumber
+		\end{equation}
+		We can substitute in the following identities: $x_t =\bar x (1+\tilde x_t) \cong \bar x e^{\tilde x_t}$ and $x_{t-1} = \bar x e^{\tilde x_{t-1}}$ to get:
+		\begin{equation}
+		E_t\left\{\frac{\bar x e^{b \tilde x_t}}{\bar x e^{d\tilde x_{t-1}}}\right\} = E_t\left\{ e^{b \tilde x_t-d\tilde x_{t-1}}\right\}= 1  \nonumber
+		\end{equation}
+		Noting that while $x_{t-1}$ is known and we need not take expectations, but that this is not so for $x_t$ and taking natural logs:
+		\begin{equation}
+		\begin{split}
+		0 &= \ln E_t\left\{e^{b \tilde x_t -  d \tilde x_{t-1}}\right\} \\
+		&\cong  \ln E_t\left\{1+b \tilde x_t-d\tilde x_{t-1}\right\} \\
+		&=  \ln (1+b E_t\{\tilde x_t\}-d\tilde x_{t-1}) \\
+		&\cong b E_t\{\tilde x_t\}-d\tilde x_{t-1}
+		\nonumber
+		\end{split}
+		\end{equation}
+
+		Suppose that a different characterizing equation is \begin{equation}
+		E_t\left\{x_t^b + fx_{t-1}^d\right\}=1 \nonumber
+		\end{equation}
+		Proceeding as before:
+		\begin{equation}
+		\begin{split}
+		0 &= \ln E_t\left\{\bar x e^{b \tilde x_t} + f \bar x e^{d \tilde x_{t-1}}\right\} \\
+		&=\ln E_t\left\{\bar x (e^{b \tilde x_t} + f e^{d \tilde x_{t-1}})\right\} \\
+		&\cong \ln E_t\left\{\bar x [1+b \tilde x_t+ f (1+d \tilde x_{t-1})]\right\} \\
+		&= \ln \bar x +\ln [1+ f + b E_t\{\tilde x_t\}+ fd \tilde x_{t-1})]
+		\nonumber
+		\end{split}
+		\end{equation}
+
+		We can proceed similarly with almost any characterizing equation.
+
+	%subsection 1.3
+	\subsection{Numerical Log-Linearization}
+		Another way to proceed is to use numerical methods to log-linearize. Since the coefficients of \eqref{Linear_Approx3LogLin} are functions of derivatives evaluated at the steady state. We can find these numerically as well as analytically.
+
+		The procedure for numerical derivatives is as follows:
+		\begin{itemize}
+		\item Evalate $\Gamma$ at the steady state values. Denote this column vector $\bar \Gamma$.
+		\item One-by-one disturb each element in $[X_t \>Z_t]$ by a small amount, $\ve$, and evaluate $\Gamma$ again at each of these values. This will give a $n_X \times 1$ column vector for each of the $3n_X + 2n_Z$ values. Denote each of these vectors $\Gamma_j$, where j indexes the elements of $\Theta \equiv [X_{t+1}\> X_t \>X_{t-1} \>Z_{t+1} \>Z_t]$.
+		\item Find the derivative of for the log of $\Gamma_{ij}$ ($i$ indexing the row) by using $D_{ij} = \frac{\Theta_j (\Gamma_{ij}-\bar \Gamma_i)}{\ve \bar \Gamma_i}$ for the $X$s and $D_{ij} = \frac{\Gamma_{ij}-\bar \Gamma_i}{\ve \bar \Gamma_i}$ for the $Z$s. This generates a large matrix of derivatives, $D$, that is $n_X \times (3n_X +2n_Z)$. Our coefficients come from subsets of this matrix. For example, $F$ is all rows and columns 1 through $n_X$ of $D$.
+		\end{itemize}
+
+	%subsection 1.4
+	\subsection{Linearizing Brock and Mirman's Model}\label{Linear_LinBM}
+		Let us first solve for the linearized approximation, not the log-linearized one.
+		Recall the Euler equation from the Brock and Mirman model.
+		\begin{equation}\label{Linear_BMEulerLL}
+		\frac{1}{e^{z_t}K_t^\alpha - K_{t+1}} = \beta E_t \left\{\frac{\alpha e^{z_{t+1}}{K_{t+1}}^{\alpha-1}}{e^{z_{t+1}}{K_{t+1}}^\alpha - K_{t+2}} \right\} \nonumber
+		\end{equation}
+		We rewrite this equation and put it in the form of \eqref{Linear_GammaLogLin}.
+		\begin{equation}\label{Linear_BMGamma}
+		E_t\left\{ \beta \frac{\alpha e^{z_{t+1}}{K_{t+1}}^{\alpha-1}(e^{z_t}K_t^\alpha - K_{t+1})} {e^{z_{t+1}}{K_{t+1}}^\alpha - K_{t+2}} \right\} = 1
+		\end{equation}
+
+		By differentiating \eqref{Linear_GammaLogLin} with respect to $K_{t+2}$, $K_{t+1}$, $K_t$, $z_{t+1}$ and $z_t$, and evaluating these at thes steady state values we can recover the Uhlig matrices:
+		\begin{equation}\label{Linear_BMFGHLM}
+		\begin{split}
+		F = & \frac{\alpha \bar K^{\alpha-1}}{\bar K^\alpha - \bar K} \\ \nonumber
+		G = & - \frac{\alpha \bar K^{\alpha-1}(\alpha + \bar K^{\alpha-1})}{\bar K^\alpha - \bar K} \\
+		H = & \frac{\alpha^2 \bar K^{2(\alpha-1)}}{\bar K^\alpha - \bar K} \\
+		L = & - \frac{\alpha \bar K^{2\alpha-1}}{\bar K^\alpha - \bar K} \\
+		M = & \frac{\alpha^2 \bar K^{2(\alpha-1)}}{\bar K^\alpha - \bar K}
+		\end{split}
+		\end{equation}
+		To evaluate \eqref{Linear_BMFGHLM} recall $\bar K =  A ^\frac{1}{1-\alpha}$.  We can then use equations \eqref{Linear_PcondLogLin} and \eqref{Linear_QcondLogLin} to derive the scalar values $P$ and $Q$.
+
+		\begin{equation} \label{Linear_BMP}
+		P = \frac {-G \pm \sqrt {G^2 - 4FH}}{2F}
+		\end{equation}
+
+		\begin{equation}\label{Linear_BMQ}
+		Q  = -\frac{LN+M}{FN+FP+G}
+		\end{equation}
+
+		In this case, since we have linearized (not log-linearized) the policy function is:
+		\begin{equation}\label{Linear_BMPolicy}
+		K_{t+1} = \bar K + P (K_t-\bar K) + Q z_t
+		\end{equation}
+
+
+	%subsection 1.6
+	\subsection{Linearizing Our Baseline Model}\label{Linear_LogLinDSGE}
+		Recall the model defined by equations (35) -- (41) from the DSGE chapter. $Z_t = \{z_t\}$, but we need to determine what variables are in the vector $X_t$. We certainly want to include $k_{t-1}$, but what jump variables should we include?
+
+		As we mentioned in that chapter, we could include all the jump variables. However, let's try to be a bit more conservative with the list. Any variables that can be isolated as definitions will not be included as elements of $X_t$. Equations (35), (38), (39) and (40) give us four such definitions.
+
+		\begin{equation}\label{Linear_4defsLogLin}
+		\begin{split}
+		r_t &= f_K(k_t,\ell_t,z_t) \\
+		w_t &= f_L(k_t,\ell_t,z_t) \\
+		T_t  &=\tau \left[w_t\ell_t+(r_t-\delta)k_t\right] \\
+		c_t &= (1-\tau) \left[w_t\ell_t+(r_t-\delta)k_t\right] + k_t + T_t - k_{t+1}
+		\end{split}
+		\end{equation}
+
+		So let's define $X_t = \{k_{t-1},\ell_{t-1}\}$, even though $\ell_t$ is not strictly a state variable.
+
+		If we use $\ln c_t + a\ln(1-\ell_t)$ as the utility function. Then, $u_c(c_t,\ell_t) = c_t^{-1}$ and $u_{\ell}(c_t,\ell_t) = -(1-\ell)_t^{-1}$. Our characterizing equations from (36) and (37) become:
+
+		\begin{equation}\label{Linear_Gam1LogLin}
+		 E_t\left\{ \beta \frac{c_t}{ c_{t+1}}(1+r_{t+1}-\delta)(1-\tau) \right\} = 1
+		\end{equation}
+		\begin{equation}\label{Linear_Gam2LogLin}
+		\frac{c_t}{w_t(1-\tau)(1-\ell_t)}= 1
+		\end{equation}
+
+		The law of motion for $Z$ is the same as (41).
+		\begin{equation}\label{Linear_LoMLogLin}
+		z_t = (1-\rho_z)\bar z +  \rho_z z_{t-1}+ \ve^z_t ;\quad \ve^z_t\sim\text{i.i.d.}(0,\sigma_z^2)
+		\end{equation}
+
+		To implement the procedure from section \ref{Linear_GenLogLin} above we need transform \eqref{Linear_LoMLogLin} and write it in terms of the deviations of $z_t$ from its steady state value:
+		\begin{equation}
+		\tilde z_t = \rho_z \tilde z_{t-1}+ \ve^z_t
+		\end{equation}
+
+		We next need to take the natural logs of \eqref{Linear_Gam1LogLin} and \eqref{Linear_Gam2LogLin} and then linearize them. We can do this analytically or numerically. Let's do it analytically here.
+
+		First let's choose a functional for for the production function. We will use $Y_t \equiv e^{z_t}k_t^\alpha \ell_t^{1-\alpha}$.
+
+		Let's log-linearize our definitions in \eqref{Linear_4defsLogLin} first.
+		\begin{equation} \label{Linear_rdefbLogLin}
+		\begin{split}
+		r_t &=e^{z_t}k_t^{\alpha-1}\ell_t^{1-\alpha} \\
+		\bar r e^{\tilde r_t} &=e^{\bar z + \tilde z_t}(\bar k e^{\tilde k_t})^{(\alpha-1)}\bar (\ell e^{\tilde \ell_t})^{(1-\alpha)} \\
+		 \bar r (1+\tilde r_t) &=e^{\bar z}(1+\tilde z_t)\bar k^{\alpha-1}[1+\tilde k_t(\alpha-1)]\bar \ell^{1-\alpha}[1+\tilde \ell_t(1-\alpha)] \\
+		\bar r +\bar r \tilde r_t &=e^{\bar z}\bar k^{\alpha-1} \bar \ell^{1-\alpha}(1+\tilde z_t)[1+\tilde k_t(\alpha-1)][1+\tilde \ell_t(1-\alpha)] \\
+		\bar r +\bar r \tilde r_t &=e^{\bar z}\bar k^{\alpha-1} \bar \ell^{1-\alpha}[1+\tilde z_t +\tilde k_t(\alpha-1)+\tilde \ell_t(1-\alpha) + \Xi] ; \quad \Xi \cong 0\\
+		\bar r +\bar r \tilde r_t &=e^{\bar z}\bar k^{\alpha-1} \bar \ell^{1-\alpha} + e^{\bar z}\bar k \bar \ell[\tilde z_t +\tilde k_t(\alpha-1)+\tilde \ell_t(1-\alpha)] \\
+		&  \text{noting } \bar r =e^{\bar z}\bar k^{\alpha-1} \bar \ell^{1-\alpha} \\
+		\bar r \tilde r_t &=\bar r [\tilde z_t +\tilde k_t(\alpha-1)+\tilde \ell_t(1-\alpha)] \\
+		\tilde r_t & =\tilde z_t +(\alpha-1)\tilde k_t+(1-\alpha)\tilde \ell_t
+		\end{split}
+		\end{equation}
+
+		Proceeding similarly with the other lines gives:
+		\begin{equation}
+		\tilde w_t =\tilde z_t +\alpha \tilde k_t-\alpha \tilde \ell_t
+		\end{equation}
+
+		\begin{equation}
+		\tilde T_t =\frac{\tau \bar w \bar \ell}{\bar T}\tilde w_t + \frac{\tau \bar w \bar \ell}{\bar T}\tilde \ell_t+\frac{(1+\bar r-\delta)\bar k}{\bar T}\tilde r_t + \frac{(1+\bar r-\delta)\bar k}{\bar T}\tilde k_t
+		\end{equation}
+
+		\begin{equation}\label{Linear_cdefLogLin}
+		\begin{split}
+		c_t =&\frac{ (1-\tau)\bar w \bar \ell}{\bar c} \tilde w_t + \frac{ (1-\tau)\bar w \bar \ell}{\bar c}\tilde \ell_t+\frac{ (1+\bar r-\delta) \bar k}{\bar c}\tilde r_t  ... \\
+		&\quad +\frac{ (1+\bar r-\delta) \bar k}{\bar c}\tilde k_t + \frac{\bar T}{\bar c}\tilde T_t -\frac{\bar k}{\bar c} \tilde k_{t+1}
+		\end{split}
+		\end{equation}
+
+		Log-linearizing the characterizing equations in \eqref{Linear_Gam1LogLin} and \eqref{Linear_Gam2LogLin} gives:
+		\begin{equation}\label{Linear_Gam1cLogLin}
+		\tilde c_t-\tilde c_{t+1}+\tilde r_{t+1}= 0
+		\end{equation}
+
+		\begin{equation}\label{Linear_Gam2cLogLin}
+		\tilde c_t-\tilde w_t+\tilde \ell_t = 0
+		\end{equation}
+
+		Substituting \eqref{Linear_rdefbLogLin} -- \eqref{Linear_cdefLogLin} into \eqref{Linear_Gam1cLogLin} and \eqref{Linear_Gam2cLogLin} gives the elements of the coefficients in \eqref{Linear_Approx3LogLin} as functions of parameters and steady state values.
+
+		If we had chosen $X_t = \{k_{t-1}, \ell_t, r_t, w_t, T_t, c_t\}$ then \eqref{Linear_rdefbLogLin} -- \eqref{Linear_Gam2cLogLin} would give us the coefficients.
+
+	%subsection 1.7
+	\subsection{Simulating Linearized DSGE Modes}
+		We begin our simulation at a set of starting values, $[X_0\> Z_1]$. We need to first convert these to deviations from the steady state. For values of $X$ we take the percent deviation, $\tilde X_0 = \ln X_0 - \ln \bar X$. For values of $Z$ we take the absolute deviation, $\tilde Z_0 = Z_0 - \bar Z$
+
+		Recall the law of motion for $Z_t$ is \eqref{Linear_ZVAR2LogLin}.
+		\begin{equation}
+		\tilde Z_t =  N \tilde Z_{t-1} + \ve_t \nonumber
+		\end{equation}
+
+		We can use this to generate a history of $\tilde Z$s independent of the rest of the economy, since the $\tilde Z$s are exogenous to the model. We do so by generating a history of $\ve$'s using a random number generator. We start with $t=2$ and iteratively apply \eqref{Linear_ZVAR2LogLin} to generate the $\tilde Z$ time series.
+
+		Recall our log-linearized policy function is equation \eqref{Linear_TransLogLin}.
+		\begin{equation}
+		\tilde X_{t} =  P \tilde X_{t-1} + Q \tilde Z_t \nonumber
+		\end{equation}
+
+		We can use this to iteratively generate a history of $\tilde X$s starting with $t=1$.
+
+		Once we have full histories for $[\tilde X_t\> \tilde Z_t]$ we can convert these back to actual levels by using $X_t = \bar X e^{\tilde X_t}$ and $Z_t = \tilde Z_t + \bar Z$.
+
+% section 2
+\section{Overlapping Generations Models}\label{Linear_OLG}
+	Our dyanmic programming approach to the household's problem cannot be applied to an overlapping generations (OLG) model.  This is because the value-function for an $n$-year-old agent is different from that of an ($n+1$)-year-old agent.  However, in our infintely-lived agent models from section \ref{DSGE_BaselineDSGE}, the problem is the same since the agent still has an infintely number of periods to live every period.
+
+	Despite this drawback, we can still express an OLG model in the same notation.
+
+	Consider, for example, the Euler equations, for an OLG model with $N$-period-lived agents.
+	\begin{equation}\label{Linear_OLGEulers}
+	\begin{split}
+	&u_c(c_{1t}) = \beta E\{ u_c(c_{2,t+1}) (1+r_{t+1}-\delta)\} \\
+	&u_c(c_{2t}) = \beta E\{ u_c(c_{3,t+1}) (1+r_{t+1}-\delta)\} \\
+	& \vdots \\
+	&u_c(c_{N-1,t}) = \beta E\{ u_c(c_{N,t+1}) (1+r_{t+1}-\delta)\} \\
+	\end{split}
+	\end{equation}
+
+	There are also a set of budget contraints, one for each agent, that define the consumptions, $\{ c_{nt} \}_{n=1}^N$.
+	\begin{equation}\label{Linear_OLGBCs}
+	\begin{split}
+	&c_{1t} = w_t \ell_{1t} - k_{2,t+1} \\
+	&c_{2t} = w_t \ell_{2t} + (1+r_t-\delta)k_{2t} - k_{3,t+1}  \\
+	& \vdots \\
+	&c_{N-1,t} = w_t \ell_{N-1,t} + (1+r_t-\delta)k_{N-1,t} - k_{N,t+1}  \\
+	&c_{N,t} = w_t \ell_{N,t} + (1+r_t-\delta)k_{N,t}  \\
+	\end{split}
+	\end{equation}
+
+	Aggregate capital ($K$) and labor ($L$) will be the sums of the $k$s and $\ell$s over all cohorts.
+	\begin{equation}\label{Linear_OLGKL}
+	\begin{split}
+	& K_t = \sum_{n=2}^N k_{nt} \\
+	& L_t = \sum_{n=1}^N \ell_{nt} \\
+	\end{split}
+	\end{equation}
+
+	Wages and interest rates are defined from first-order conditions for firms and will be conditions similar to (3.9) and (3.10).
+	\begin{equation}\label{Linear_OLGrw}
+	\begin{split}
+	& r_t = f_K(K_t,L_t,z_t) \\
+	& w_t = f_L(K_t,L_t,z_t) \\
+	\end{split}
+	\end{equation}
+
+	Finally, we have a law of motion for the exogenous productivity shock.
+	\begin{equation}\label{Linear_OLGLOM}
+	z_t = \rho z_{t-1} + \ve_t
+	\end{equation}
+
+	Equations \eqref{Linear_OLGEulers} - \eqref{Linear_OLGLOM} are a dynamic system of $2N+4$ equations and variables.  We can categorize our variables as before.
+
+	\begin{equation}
+	\begin{split}
+	&X_t = (\{k_{n,t+1}\}_{n=2}^N) \\
+	&Y_t = (\{c_{n,t}\}_{n=1}^N,K_t,L_t,r_t,w_t) \\
+	&Z_t = z_t
+	\end{split}
+	\end{equation}
+
+	We can solve and simulate this system in exactly the same way we do that from sections \ref{DSGE_BaselineDSGE} and \ref{DSGE_BrockMirman} using the tools from sections \ref{DSGE_Solutions} and \ref{Linear_LogLinApprox}.
+
+%Exercises
+\newpage
+\section*{Exercises}\label{Linear_HW}
+
+	% 1
+	\begin{exercise} \label{Linear_HW_BM_Coeffs}
+		For the Brock and Mirman model in use Uhlig's notation to analytically find the values of the following matrices: $F, G, H, L, M$ \& $N$ as functions of the parameters.  Given these find the values of $P$ \& $Q$, also as functions of the parameters.  Imposing our calibrated parameter values, plot the three-dimensional surface plot for the policy function $K' = H(K,z)$.  Compare this with the closed form solution and the solution you found using the grid search method in exercise 8 from the DSGE chapter.
+	\end{exercise}
+
+	% 2
+	\begin{exercise} \label{Linear_HW_BM_Coeffs_Log}
+		Repeat the above exercise using $k \equiv \ln K$ in place of $K$ as the endogenous state variable.
+	\end{exercise}
+
+	% 3
+	\begin{exercise} \label{Linear_HW_Algebra}
+		Do the necessary tedious matrix algebra necessary to transform equation \eqref{Linear_Approx3LogLin} into \eqref{Linear_Trans2LogLin}.
+	\end{exercise}
+
+	% 4
+	\begin{exercise} \label{Linear_HW_Base_Numer_SS}
+		For the baseline tax model, find the steady state values of $k$, $c$, $r$, $w$, $\ell$, $T$, $y$ and $i$, numerically.  Assuming $u(c_t,\ell_t) = \frac{c^{1-\gamma}_t -1}{1-\gamma}+ a \frac{(1-\ell_t)^{1-\xi}-1}{1-\xi}$ and $F(K_t,L_t,z_t) = K^{\alpha}_t (L_te^{z_t})^{1-\alpha} $.  Use the following parameter values: $\gamma = 2.5$, $\xi = 1.5$,  $\beta = .98$, $\alpha = .40$, $a=.5$, $\delta = .10$, $\bar z = 0$, $\rho_z=.9$ and $\tau = .05$.
+	\end{exercise}
+
+	% 5
+	\begin{exercise} \label{Linear_HW_Base_Numer_Deriv}
+		For the same model as above, find $\frac{\partial y}{\partial x}$ for $y\in\{\bar k, \bar c, \bar r, \bar w, \bar \ell, \bar T, \bar y, \bar i\}$ and $x\in\{\delta, \tau, \bar z, \alpha, \gamma, \xi, \beta, a \}$ using numerical techniques.
+	\end{exercise}
+
+	% 6
+	\begin{exercise} \label{Linear_HW_Base_Coeffs}
+		For the same model as above, let $X_t = \{k_{t-1}, \ell_{t-1}\}$.  Find the values of $F$, $G$, $H$, $L$, $M$, $N$, $P$ and $Q$.
+	\end{exercise}
+
+	% 7
+	\begin{exercise} \label{Linear_HW_Base_Sims}
+		For the same model as above, generate 10,000 artificial time series for an economy where each time series is 250 periods long.  Start each simulation off with a starting value for $k$ equal to the steady state value, and a value of $z=0$.
+
+		Use $\sigma_z^2 = .0004$.
+
+		For each simulation save the time-series for GDP, consumption, investment, and the labor input.  When all 10,000 simulations have finished generate a graph for each of these time-series showing the average value over the simulations for each period, and also showing the five and ninety-five percent confidence bands for each series each period.
+	\end{exercise}
+
+	% 8
+	\begin{exercise} \label{Linear_HW_Base_Moments}
+		For the same model as above, calculate: the mean, volatility (standard deviation), coefficient of variation (mean divided by standard deviation), relative volatility (standard deviation divided bu the standard deviation of output), persistence (autocorrelation), and cyclicality (correlation with output); for each series over each simulation and report the average values and standard errors for these moments over the 10,000 simulations.
+	\end{exercise}
+
+	% 9
+	\begin{exercise} \label{Linear_HW_Base_IRFs}
+		For the same model as above, generate impulse response functions for: GDP, consumption, investment and total labor input; with lags from zero to forty periods.
+	\end{exercise}
+
+	% 10
+	\begin{exercise} \label{Linear_HW_OLG}
+		Recall the TPI exercises from the OLG chapter.  Use the linear approximation methods from section \ref{Linear_LogLinApprox} to solve for the non-steady state equilibrium transition path of the economy from $(k_{2,1},k_{3,1})=(0.8\bar{k}_2,1.1\bar{k}_3)$ to the steady-state $(\bar{k}_2,\bar{k}_3)$. Use the same value for $T$ as you used when you solved the problem using time path iteration (TPI).  Plot the time paths for $k_2$, $k_3$ and $K$.  Compare the resulting time paths for the two methods.  Comment on the tradeoff between accuracy and compute time based upon this comparison.
+	\end{exercise}
+
+	% 11
+	\begin{exercise} \label{Linear_HW_OLG_Stoch}
+		Repeat the exercise above only this time assume there is a stochastic shock to the model, so that $A$ is replaced by $e^{z_t}$ with $z_t = \rho_z z_{t-1} + \epsilon_t;\,\epsilon_t \sim \text{i.i.d} (0,\sigma_z^2)$.  Let $\sigma_z=.02$ and $\rho_z=.9^{20}$.  As with exercise 9 above, run 10,000 simulations and report the average and confidence bands for GDP, total consumption and investment.
+	\end{exercise}
+
+\end{spacing}
+
+\newpage
+
+\bibliography{BootCampText}
+
+\end{document}
