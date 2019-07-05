@@ -14,7 +14,7 @@ The economics lectures for the OSE Lab will be held from 8:00-9:50a and 10:00-11
 6-19  | T   |                     |                                                 |  | due M, 7-8, 11pm |
 6-20  | W 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES2.pdf) |     |
 6-21  | Th  |                     |                                                 |  |     |
-6-22  | F   | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) |   |     |
+6-22  | F   | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | DP Slides 2 |     |
 
 ### Week 2
 

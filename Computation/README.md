@@ -27,14 +27,13 @@ The computational methods lab sessions for the OSE Lab will usually be held from
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-1  | M (8-9:50AM)  |   Numerical Differentiation  |    |  [ACME: Numerical Differentiation](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/ACME_NumDiff.pdf)   |  [Comp Problem Set 1a](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/DifInt_probset1a.pdf) |
 7-2  | T (8AM-12PM)  |  Python Intro   |  | [ACME: Intro to NumPy](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Problem Set 1b](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
-|     |     |     |                | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7/8, 11pm |
+|     |     |     |                | [ACME: Standard Library](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due M, 7-8, 11pm |
 |     |     |     |                 | [ACME: Data Visualization](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/DataVisualization.pdf) |  |
 |     |     |     |                 | [ACME: Intro to Matplotlib](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/MatplotlibIntro.pdf) |  |
 7-3  | W (8-9:50AM)  |  Numerical Integration   |         |    [Evans integration notebook](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/NumIntegr.ipynb)      |    |
 7-4 | Th  |     | | No Class - Holiday |   |
-7-5  | F (8AM-9:50AM)  |  Objected Oriented Programming   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
+7-5  | F (8AM-9:50AM)  |  [ACME: Newton's Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/NewtonsMethod.pdf)   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
 |     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
-|     |     |     |                 | [ACME: Newton's Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/NewtonsMethod.pdf) |  |
 
 <!-- ### Week 2
 
