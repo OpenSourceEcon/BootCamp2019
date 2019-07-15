@@ -105,6 +105,12 @@ We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic
 
 ### Week 2
 
+Dynamic Structural Economics Summer School by the Econometric Society
+* [Schedule](https://dseconf.org/dse2019course-program#), July 8, 9, 12, 13, 14
+
+Dynamic Structural Economics Conference by the Econometric Society, ""
+* [Schedule](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html), July 10, 11
+
 
 **TBA**
 
