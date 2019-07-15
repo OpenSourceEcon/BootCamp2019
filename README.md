@@ -95,13 +95,13 @@ We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic
 
 ### Week 1
 
-| Date | Day | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ) (10am-noon) | [Computation]() (8am-noon) | Lunch speaker |
+| Date | Day | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-1) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-1) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-1) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-18  | M   | Numerical derivatives | Dynamic programming |              | Safety office |
 6-19  | T   |              |                           | Python intro, standard library |     |
 6-20  | W   | Numerical integration | Dynamic programming |              |     |
 6-21  | Th  |              |                           |  |     |
-6-22  | F   | Object oriented progr. | Dynamic programming |              |  |
+6-22  | F   | Newton's method | Dynamic programming | Object oriented progr. |  |
 
 ### Week 2
 

@@ -1,0 +1,11 @@
+The following m-files are included in this toolkit
+
+LinApp_FindSS - Takes a function, funcname.py, and a steady state value for the exogenous state variables as inputs.  Finds the steady state for the model's endogenous state and jump variables.
+
+LinApp_Deriv - Takes a function, funcname.py, as an input.   Generates the derivative matrices needed for the Uhlig toolkit.
+
+LinApp_Solve - Takes the derivative matrices as inputs.  Uses the code from the Uhlig toolkit to generate the coefficients for the linearized policy function(s).
+
+LinApp_Sim - Takes the policy function coefficients and current state as inputs.  Generates the value(s) of the endogenous state variables for the next period.
+
+LinApp_SSL - Takes a history of exogenous state variables and the policy function coefficients as inputs.  Generates a history of state and jump variables using linearization about the steady state.
