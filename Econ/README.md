@@ -14,9 +14,25 @@ The economics lectures for the OSE Lab will be held from 8:00-9:50a and 10:00-11
 6-19  | T   |                     |                                                 |  | due M, 7-8, 11pm |
 6-20  | W 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES2.pdf) |     |
 6-21  | Th  |                     |                                                 |  |     |
-6-22  | F   | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | DP Slides 2 |     |
+6-22  | F 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | DP Slides 2 |     |
 
 ### Week 2
+
+Dynamic Structural Economics **Summer School** by the Econometric Society
+* [Schedule](https://dseconf.org/dse2019course-program#), July 8, 9, 12, 13, 14
+
+Dynamic Structural Economics **Conference** by the Econometric Society, ""
+* [Schedule](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html), July 10, 11
+
+### Week 3
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+6-15  | M 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |  | Econ Prob. Set 2  |
+6-16  | T   |  |  |  | due M, 7-22, 11pm |
+6-17  | W 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |   |    |
+6-18  | Th  |  |  |  |  |
+6-19  | F  10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |  |     |
 
 **TBA**
 

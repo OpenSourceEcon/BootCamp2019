@@ -115,11 +115,11 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | [Math](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-3) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-15  | M   | Measure theory | DSGE |  | Supercomputer setup |
+6-15  | M   | Measure theory | DSGE models |  | Supercomputer setup |
 6-16  | T   |  |  | High performance computing |     |
-6-17  | W   | Measure theory | DSGE |       | James Savage, Schmidt Futures |
+6-17  | W   | Measure theory | DSGE models |       | James Savage, Schmidt Futures |
 6-18  | Th  |  |  | High performance computing |     |
-6-19  | F   | Measure theory | DSGE | Object oriented progr. |  |
+6-19  | F   | Measure theory | DSGE models | Object oriented progr. |  |
 
 
 **TBA**
