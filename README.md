@@ -105,6 +105,22 @@ We have posted a one-page PDF of the [OSE Lab boot camp schedule](/OSE_Lab_topic
 
 ### Week 2
 
+Dynamic Structural Economics **Summer School** by the Econometric Society
+* [Schedule](https://dseconf.org/dse2019course-program#), July 8, 9, 12, 13, 14
+
+Dynamic Structural Economics **Conference** by the Econometric Society, ""
+* [Schedule](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html), July 10, 11
+
+### Week 3
+
+| Date | Day | [Math](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-3) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+6-15  | M   | Measure theory | DSGE models |  | Supercomputer setup |
+6-16  | T   |  |  | High performance computing |     |
+6-17  | W   | Measure theory | DSGE models |       | James Savage, Schmidt Futures |
+6-18  | Th  |  |  | High performance computing |     |
+6-19  | F   | Measure theory | DSGE models | Object oriented progr. |  |
+
 
 **TBA**
 
