@@ -117,7 +117,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, "Applica
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-15  | M   | Measure theory | DSGE models |  | Supercomputer setup |
 6-16  | T   |  |  | High performance computing |     |
-6-17  | W   | Measure theory | DSGE models |       | James Savage, Schmidt Futures |
+6-17  | W   | Measure theory | DSGE models |       | [James Savage](https://schmidtfutures.com/person/jim-savage/), [Schmidt Futures](https://schmidtfutures.com/) |
 6-18  | Th  |  |  | High performance computing |     |
 6-19  | F   | Measure theory | DSGE models | Object oriented progr. |  |
 
