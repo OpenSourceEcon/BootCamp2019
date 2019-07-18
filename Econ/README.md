@@ -28,11 +28,11 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-15  | M 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |  | Econ Prob. Set 2  |
-6-16  | T   |  |  |  | due M, 7-22, 11pm |
-6-17  | W 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |   |    |
-6-18  | Th  |  |  |  |  |
-6-19  | F  10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) |  |     |
+6-15  | M 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_DSGE.pdf)  | [Econ Prob. Set 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/DSGE_probset.pdf)  |
+6-16  | T   |  |  | [Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_DSGE.pdf) | due M, 7-22, 11pm |
+6-17  | W 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Linear.pdf) |    |
+6-18  | Th  |  |  | [Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Linear.pdf) |  |
+6-19  | F  10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Perturb.pdf), [Slides 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Perturb.pdf) |     |
 
 **TBA**
 
