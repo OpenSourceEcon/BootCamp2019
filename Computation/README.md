@@ -35,6 +35,33 @@ The computational methods lab sessions for the OSE Lab will usually be held from
 7-5  | F (8AM-9:50AM)  |  [ACME: Newton's Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_DifInt/NewtonsMethod.pdf)   |     | [ACME: Object Oriented Programming](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |     |
 |     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |  |
 
+### Week 2
+
+Dynamic Structural Economics **Summer School** by the Econometric Society
+* [Schedule](https://dseconf.org/dse2019course-program#), July 8, 9, 12, 13, 14
+
+Dynamic Structural Economics **Conference** by the Econometric Society, ""
+* [Schedule](https://editorialexpress.com/conference/DSE2019/program/DSE2019.html), July 10, 11
+
+### Week 3
+
+Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) has created a separate high performance computing repository for the OSE Lab at [https://github.com/sischei/OSE2019](https://github.com/sischei/OSE2019).
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-15  | M |  |  |  |  |
+7-16  | T (8a-12p)  | Sparse grids | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [Sparse Grids intro](https://github.com/sischei/OSE2019/blob/master/day1/SG_lecture_1.pdf) | [Comp. Prob. Set 2a](https://github.com/sischei/OSE2019/blob/master/day1/SG_Exercises.pdf) |
+|     |     |     |                | [Accessing supercomputer](https://github.com/sischei/OSE2019/blob/master/day1/SG_lecture_2.pdf) | due M, 7-22, 11pm |
+|     |     |     |                 | [Sparse grids tools and code](https://github.com/sischei/OSE2019/blob/master/day1/SG_lecture_3.pdf) |  |
+|     |     |     |                 | [Sparse grids dynamic programming](https://github.com/sischei/OSE2019/blob/master/day1/SG_lecture_4.pdf) |  |
+7-17  | W |  |  |  |  |
+7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [HPC intro](https://github.com/sischei/OSE2019/blob/master/day2/Lecture1_HPC_Intro.pdf) | [Comp. Prob. Set 2b](https://github.com/sischei/OSE2019/blob/master/day2/Lecture5_Exercise.pdf) |
+|     |     |     |                | [C++ primer](https://github.com/sischei/OSE2019/blob/master/day2/Lecture2_CPP_Intro.pdf) | due M, 7-22, 11pm |
+|     |     |     |                 | [Parallel proc, OpenMP](https://github.com/sischei/OSE2019/blob/master/day2/Lecture3_OPENMP_1.pdf) |  |
+|     |     |     |                 | [3 Projects](https://github.com/sischei/OSE2019/blob/master/day2/Lecture4_Projects.pdf) |  |
+7-19  | F |  |  |  |  |
+
+
 <!-- ### Week 2
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
