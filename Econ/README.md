@@ -10,11 +10,11 @@ The economics lectures for the OSE Lab will be held from 8:00-9:50a and 10:00-11
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-18  | M 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES1.pdf) | [Econ Prob. Set 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/ProbSet/DynProgr_probset.pdf)  |
-6-19  | T   |                     |                                                 |  | due M, 7-8, 11pm |
-6-20  | W 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES2.pdf) |     |
-6-21  | Th  |                     |                                                 |  |     |
-6-22  | F 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | DP Slides 2 |     |
+7-1  | M 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES1.pdf) | [Econ Prob. Set 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/ProbSet/DynProgr_probset.pdf)  |
+7-2  | T   |                     |                                                 |  | due M, 7-8, 11pm |
+7-3  | W 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | [DP Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk1_DP/Slides/SLIDES2.pdf) |     |
+7-4  | Th  |                     |                                                 |  |     |
+7-5  | F 10-noon | Dynamic programming | [Felix Kubler](https://sites.google.com/site/fkubler/) | DP Slides 2 |     |
 
 ### Week 2
 
@@ -28,11 +28,24 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-15  | M 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_DSGE.pdf)  | [Econ Prob. Set 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/DSGE_probset.pdf)  |
-6-16  | T   |  |  | [Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_DSGE.pdf) | due M, 7-22, 11pm |
-6-17  | W 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Linear.pdf) |    |
-6-18  | Th  |  |  | [Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Linear.pdf) |  |
-6-19  | F  10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Perturb.pdf), [Slides 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Perturb.pdf) |     |
+7-15  | M 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_DSGE.pdf)  | [Econ Prob. Set 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/DSGE_probset.pdf)  |
+7-16  | T   |  |  | [Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_DSGE.pdf) | due M, 7-22, 11pm |
+7-17  | W 10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Linear.pdf) |    |
+7-18  | Th  |  |  | [Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Linear.pdf) |  |
+7-19  | F  10-noon | DSGE models | [Kerk Phillips](https://sites.google.com/site/kerkphillips/) | [Notes 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Readings/Chapter_Perturb.pdf), [Slides 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk3_DSGE/Lectures/Lecture_Perturb.pdf) |     |
+
+### Week 4
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-22  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) | Econ Prob Set 3 |
+7-22  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes | Econ Prob. Set 4 |
+7-23  | T   |  |  |  | due M, 7-29, 11pm |
+7-24  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) |  |
+7-24  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
+7-25  | Th  |  |  |  |  |
+7-26  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch03.pdf) |  |
+7-26  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
 
 **TBA**
 
