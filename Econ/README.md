@@ -38,7 +38,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-22  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) | Econ Prob Set 3 |
+7-22  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) | [Econ Prob Set 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OG_probset.pdf) |
 7-22  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes | Econ Prob. Set 4 |
 7-23  | T   |  |  |  | due M, 7-29, 11pm |
 7-24  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) |  |
