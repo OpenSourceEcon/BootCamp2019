@@ -62,6 +62,20 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 |     |     |     |                 | [3 Projects](https://github.com/sischei/OSE2019/blob/master/day2/Lecture4_Projects.pdf) |  |
 7-19  | F |  |  |  |  |
 
+### Week 4
+
+Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) has created a separate high performance computing repository for the OSE Lab at [https://github.com/sischei/OSE2019](https://github.com/sischei/OSE2019).
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-22  | M |  |  |  |  |
+7-23  | T 8a-12p  | OpenMP and MPI | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [OpenMP II](https://github.com/sischei/OSE2019/blob/master/day3/Lecture1_OPENMP_2.pdf) | [Comp. Prob. Set 3a](https://github.com/sischei/OSE2019/blob/master/day3/Lecture4_Exercise_omp.pdf) |
+|     |     |     |                | [MPI 1](https://github.com/sischei/OSE2019/blob/master/day3/Lecture2_MPI_1.pdf) | due M, 7-29, 11pm |
+|     |     |     |                 | [MPI 2](https://github.com/sischei/OSE2019/blob/master/day3/Lecture3_MPI_2.pdf) |  |
+7-17  | W |  |  |  |  |
+7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) |  | [Comp. Prob. Set 3b](https://github.com/sischei/OSE2019/blob/master/day3/Lecture5_Exercise_mpi.pdf) |
+7-19  | F |  |  |  | due M, 7-29, 11pm |
+
 
 <!-- ### Week 2
 
