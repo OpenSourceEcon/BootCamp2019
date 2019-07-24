@@ -62,6 +62,24 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 |     |     |     |                 | [3 Projects](https://github.com/sischei/OSE2019/blob/master/day2/Lecture4_Projects.pdf) |  |
 7-19  | F |  |  |  |  |
 
+### Week 4
+
+Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) has created a separate high performance computing repository for the OSE Lab at [https://github.com/sischei/OSE2019](https://github.com/sischei/OSE2019).
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-22  | M |  |  |  |  |
+7-23  | T 8a-12p  | OpenMP and MPI | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [OpenMP II](https://github.com/sischei/OSE2019/blob/master/day3/Lecture1_OPENMP_2.pdf) | [Comp. Prob. Set 3a](https://github.com/sischei/OSE2019/blob/master/day3/Lecture4_Exercise_omp.pdf) |
+|     |     |     |                | [MPI 1](https://github.com/sischei/OSE2019/blob/master/day3/Lecture2_MPI_1.pdf) | due M, 7-29, 11pm |
+|     |     |     |                 | [MPI 2](https://github.com/sischei/OSE2019/blob/master/day3/Lecture3_MPI_2.pdf) |  |
+|     |     |     |                 | [Sparse grids dynamic programming](https://github.com/sischei/OSE2019/blob/master/day1/SG_lecture_4.pdf) |  |
+7-17  | W |  |  |  |  |
+7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [HPC intro](https://github.com/sischei/OSE2019/blob/master/day2/Lecture1_HPC_Intro.pdf) | [Comp. Prob. Set 2b](https://github.com/sischei/OSE2019/blob/master/day2/Lecture5_Exercise.pdf) |
+|     |     |     |                | [C++ primer](https://github.com/sischei/OSE2019/blob/master/day2/Lecture2_CPP_Intro.pdf) | due M, 7-22, 11pm |
+|     |     |     |                 | [Parallel proc, OpenMP](https://github.com/sischei/OSE2019/blob/master/day2/Lecture3_OPENMP_1.pdf) |  |
+|     |     |     |                 | [3 Projects](https://github.com/sischei/OSE2019/blob/master/day2/Lecture4_Projects.pdf) |  |
+7-19  | F |  |  |  |  |
+
 
 <!-- ### Week 2
 
