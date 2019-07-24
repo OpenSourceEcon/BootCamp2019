@@ -39,13 +39,13 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-22  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) | [Econ Prob Set 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OG_probset.pdf) |
-7-22  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes | Econ Prob. Set 4 |
-7-23  | T   |  |  |  | due M, 7-29, 11pm |
-7-24  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) |  |
-7-24  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
+7-22  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | [Lecture 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_lecture_1.pdf) | [Econ Prob. Set 4a](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_exercise_dynare.pdf) |
+7-23  | T   |  |  |  | [Econ Prob. Set 4b](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_exercise.pdf) |
+7-24  | W 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch02.pdf) | due M, 7-29, 11pm |
+7-24  | W 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | [Lecture 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_lecture_2.pdf) |  |
 7-25  | Th  |  |  |  |  |
-7-26  | M 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch03.pdf) |  |
-7-26  | M 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
+7-26  | F 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch03.pdf) |  |
+7-26  | F 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
 
 **TBA**
 
