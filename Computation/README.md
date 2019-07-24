@@ -74,7 +74,7 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 |     |     |     |                 | [MPI 2](https://github.com/sischei/OSE2019/blob/master/day3/Lecture3_MPI_2.pdf) |  |
 7-17  | W |  |  |  |  |
 7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) |  | [Comp. Prob. Set 3b](https://github.com/sischei/OSE2019/blob/master/day3/Lecture5_Exercise_mpi.pdf) |
-7-19  | F |  |  |  |  |
+7-19  | F |  |  |  | due M, 7-29, 11pm |
 
 
 <!-- ### Week 2
