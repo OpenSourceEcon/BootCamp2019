@@ -10,13 +10,11 @@ The math lectures for the OSE Lab will be held from 8:00-9:50a, Monday, Wednesda
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-15  | M 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) | [Math Prob. Set 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/Measure_probset.pdf)  |
-6-16  | T   |   |  |  | due M, 7-22, 11pm |
-6-17  | W 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) |     |
-6-18  | Th |      |   |  |     |
-6-19  | F 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) |     |
-
-
+7-15  | M 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) | [Math Prob. Set 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/Measure_probset.pdf)  |
+7-16  | T   |   |  |  | due M, 7-22, 11pm |
+7-17  | W 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) |     |
+7-18  | Th |      |   |  |     |
+7-19  | F 8-9:50a | Measure theory | Jan Ertl | [Measure theory notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Math/Wk3_MT/MTNotesOSE19.pdf) |     |
 
 ## References
 

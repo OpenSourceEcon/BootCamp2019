@@ -47,66 +47,32 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 7-26  | F 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch03.pdf) |  |
 7-26  | F 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | [Lecture 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_lecture_3.pdf) |  |
 
-**TBA**
-
-<!--| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-6-25  | M   | Stochastic processes | [John Stachurski](http://johnstachurski.net/) | [Notes and](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ/Wk2_Dynamics) | [Econ Prob. Set 2](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk2_Dynamics/homework/Dyn_probset.pdf) |
-6-26  | T   |                      |   | [Notebooks](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ/Wk2_Dynamics) | due M, 7-2, 11pm |
-6-27  | W   | Ergodicity           | [John Stachurski](http://johnstachurski.net/) |  |  |
-6-28  | Th  |                      |                      |    |     |
-6-29  | F   | Stationarity         | [John Stachurski](http://johnstachurski.net/) |  |  |
-
-### Week 3
-
-| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-7-2  | M   | Overlapping generations model | [Richard Evans](https://sites.google.com/site/rickecon/) | [ED (2018, Ch. 2)](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OGtext_ch02.pdf) | [Econ Prob. Set 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OG_probset.pdf) |
-7-3  | T   |                     |                                |   | due M, 7-9, 11pm |
-7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY            | NO CLASSES: HOLIDAY |     |
-7-5  | Th  |                     |                                |   |     |
-7-6  | F   | Overlapping generations model | [Richard Evans](https://sites.google.com/site/rickecon/) | [ED (2018, Ch. 2)](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OGtext_ch02.pdf) |   |
-
-### Week 4
-
-| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-7-9   | M   | DSGE | [Chase Coleman](http://www.chasegcoleman.com/) | [DSGE notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_DSGE.pdf) | [Econ Prob. Set 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/DSGE_probset.pdf) |
-7-10  | T   |     |   |     |  due M, 7-16, 11pm |
-7-11  | W   | DSGE: Linear approx. | [Chase Coleman](http://www.chasegcoleman.com/) | [Linear notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_Linear.pdf) |   |
-7-12  | Th  |                  |                            |            |     |
-7-13  | F   | DSGE: Perturbation  | [Chase Coleman](http://www.chasegcoleman.com/) | [Perturb. notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_Perturb.pdf) |     |
-
 ### Week 5
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-16  | M   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/MLE/MLest.ipynb) | [Econ Prob. Set 5](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/StrEst_probset.pdf) |
-7-17  | T   |                     |                            |  | due M, 7-23, 11pm |
-7-18  | W   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [GMM notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/GMM/GMMest.ipynb) |  |
-7-19  | Th  |               |             |  |     |
-7-20  | F   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [SMM notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/SMM/SMMest.ipynb) |  |
+7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | [Econ Prob Set 5]() |
+7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes | [Econ Prob. Set 6]() |
+7-30  | T 8-10am   | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | due M, 8-5, 11pm |
+7-30  | T 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes |  |
+7-31  | W 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes |  |
+7-31  | W 10-noon | Climate Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes |  |
+8-1  | Th  |  |  |  |  |
+8-2  | F   |  |  |  |  |
 
 ### Week 6
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-23 | M  | Asset pricing | [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx) |  | Econ Prob. Set 6 |
-7-24 | T  |                        |               |  | due M, 7-30, 11pm |
-7-25 | W  | Asset pricing | [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx) |  |     |
-7-26  | Th |                        |               |  |     |
-7-27  | F  | Asset pricing | [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx) |  |  |
-
-### Week 7
-
-| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-7-30 | M  | Heterogeneous agent models | [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/) | [Notes](https://github.com/econ-ark/TITLARK/blob/master/Courses/Lectures-04/HA-Macro-OSM/syllabus/syllabus.pdf) | Econ Prob. Set 7 |
-7-31 | T  |              |                            |             | due Th, 8-2, 6pm |
-8-1  | W  | Heterogeneous agent models | [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/) |  |  |
-8-2  | Th | Heterogeneous agent models | [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/) |  |  |
-8-3  | F  | Conclusion: Hwk due |  |  |  | -->
+8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | [Econ Prob Set 7]() |
+8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | [Econ Prob. Set 8]() |
+8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | due M, 8-9, 11pm |
+8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
+8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
+8-7  | W 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
+8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
+8-2  | F 8-10am | Concluding discussion |  |  |  |
 
 ## References
 
-* Evans, Richard W. and Jason DeBacker, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, (2018, draft).
+* Evans, Richard W. and Jason DeBacker, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, (2019, draft).

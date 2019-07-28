@@ -31,7 +31,7 @@ This `README.md` serves as a syllabus and reference for the OSE Lab Boot Camp. T
 **Instructors.** The OSE Lab has excellent instructors and presenters from economics and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name for each of the three events in this year's boot camp. To see what they teach and when, check the respective [econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ), and [computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) detailed schedule pages.
 
 OSE Lab Senior Instructors and Presenters (in alphabetical order)
-* [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
+* [Scott Condie](https://scottcondie.github.io/), Brigham Young University
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * [Felix Kubler](https://www.bf.uzh.ch/en/persons/kuebler-felix), University of Zurich
@@ -131,59 +131,25 @@ Dynamic Structural Economics **Conference** by the Econometric Society, "Applica
 7-25  | Th  |  |  | High performance computing | Lars Hansen, Joseph Huang, University of Chicago |
 7-26  | F   | Overlapping generations models | Firm Dynamics |  |  |
 
-
-**TBA**
-
-<!-- | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-2) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
-6-26  | T   |                      |                      | Data visualization   |     |
-6-27  | W   | Inner product spaces | Ergodicity           |                      |   |
-6-28  | Th  |                      |                      | Pandas, data methods | [Laurence Kotlikoff](https://www.kotlikoff.net/) |
-6-29  | F   | Inner product spaces | Stationarity         |                      |  |
-
-### Week 3
-
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-2  | M   | Spectral theory     | Overlapping generations models |   |     |
-7-3  | T   |                     |                                | QR, SVD decomposition, SVD  |     |
-7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY            |                      |     |
-7-5  | Th  |                     |                                | Drazin inv., page rank |     |
-7-6  | F   | Spectral theory     | Overlapping generations models |                      |   |
-
-### Week 4
-
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-4) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-4) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
-7-10  | T   |                         |                            | High performance computing |     |
-7-11  | W   | Convex analysis  | DSGE |                     | [Lars Hansen](http://larspeterhansen.org/) |
-| |     |                  |      |                     | [Lars slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Hansen/hansen_LAB.pdf) |
-| |     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Hansen/Huang_Presentation.pdf) |
-7-12  | Th  |                  |                            | High performance computing |     |
-7-13  | F   | Convex analysis  | DSGE |                     |     |
-
 ### Week 5
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-5) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-5) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-5) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-5) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-5) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
-7-17  | T   |                     |                            | High performance computing |     |
-7-18  | W   | Linear optimization | Structural estimation: GMM |                  | [John Diamond](https://www.bakerinstitute.org/experts/john-w-diamond/) |
-| |     |  |  |  | [paper](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond/Paper_MacroDistEffectsOfCarbonTax.pdf), [slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond/Slides_MacroDistEffectsOfCarbonTax.pdf) |
-7-19  | Th  |                     |                            | High performance computing |     |
-7-20  | F   | Linear optimization | Structural estimation: SMM |  | [Student presentationas](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Talks/StudentPresents) |
+7-29  | M   | Asset Pricing | Heterogeneous Agent Models |  |  |
+7-30  | T   | Asset Pricing | Heterogeneous Agent Models |  |  |
+7-31  | W   | Asset Pricing | Heterogeneous Agent Models |  |  |
+8-1   | Th  |  |  | Pandas |  |
+8-2   | F   |  |  | Visualization |  |
 
 ### Week 6
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-6) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-6) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
-7-24  | T   |                        |               | Num. diff. and integr. |     |
-7-25  | W   | Nonlinear optimization | Asset Pricing |  | Sebastian James |
-7-26  | Th  |                        |               | Simplex, line search, Newton's |     |
-7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA | -->
+8-5  | M   | Machine Learning | International Models |  |  |
+8-6  | T   | Machine Learning | International Models |  |  |
+8-7  | W   | Machine Learning | International Models |  |  |
+8-8  | Th  | Machine Learning |  |  |  |
+8-9  | F   | Concluding discussion |  |  |  |
 
 This will be an intensive six weeks. We expect that your attendance of lectures plus homework time might average 50-60 hours per week of work.
 
