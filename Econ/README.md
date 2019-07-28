@@ -45,7 +45,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 7-24  | W 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | [Lecture 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_lecture_2.pdf) |  |
 7-25  | Th  |  |  |  |  |
 7-26  | F 8-10am | Overlapping Generations Models | [Richard Evans](https://sites.google.com/site/rickecon/) | [OG chap 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_OG/OGtext_ch03.pdf) |  |
-7-26  | F 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | Notes |  |
+7-26  | F 10-noon | Firm Dynamics | [Thomas Winberry](https://faculty.chicagobooth.edu/thomas.winberry/) | [Lecture 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk4_FirmDyn/winberry_lecture_3.pdf) |  |
 
 **TBA**
 
