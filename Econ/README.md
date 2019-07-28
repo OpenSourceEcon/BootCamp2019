@@ -51,8 +51,8 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | [Econ Prob Set 5]() |
-7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes | [Econ Prob. Set 6]() |
+7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | Econ Prob Set 5 |
+7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes | Econ Prob. Set 6 |
 7-30  | T 8-10am   | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | due M, 8-5, 11pm |
 7-30  | T 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes |  |
 7-31  | W 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes |  |
@@ -64,8 +64,8 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | [Econ Prob Set 7]() |
-8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | [Econ Prob. Set 8]() |
+8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | Econ Prob Set 7 |
+8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | Econ Prob. Set 8 |
 8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | due M, 8-9, 11pm |
 8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
 8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
