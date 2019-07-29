@@ -70,11 +70,15 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-22  | M |  |  |  |  |
 7-23  | T 8a-12p  | OpenMP and MPI | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [OpenMP II](https://github.com/sischei/OSE2019/blob/master/day3/Lecture1_OPENMP_2.pdf) | [Comp. Prob. Set 3a](https://github.com/sischei/OSE2019/blob/master/day3/Lecture4_Exercise_omp.pdf) |
-|     |     |     |                | [MPI 1](https://github.com/sischei/OSE2019/blob/master/day3/Lecture2_MPI_1.pdf) | due M, 7-29, 11pm |
-|     |     |     |                 | [MPI 2](https://github.com/sischei/OSE2019/blob/master/day3/Lecture3_MPI_2.pdf) |  |
+|     |     |     |                | [MPI 1](https://github.com/sischei/OSE2019/blob/master/day3/Lecture2_MPI_1.pdf) | [Comp. Prob. Set 3b](https://github.com/sischei/OSE2019/blob/master/day3/Lecture5_Exercise_mpi.pdf) |
+|     |     |     |                 | [MPI 2](https://github.com/sischei/OSE2019/blob/master/day3/Lecture3_MPI_2.pdf) | due M, 7-29, 11pm |
 7-17  | W |  |  |  |  |
-7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) |  | [Comp. Prob. Set 3b](https://github.com/sischei/OSE2019/blob/master/day3/Lecture5_Exercise_mpi.pdf) |
-7-19  | F |  |  |  | due M, 7-29, 11pm |
+7-18 | Th 8a-12p | High performance computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/home) | [MPI 3](https://github.com/sischei/OSE2019/blob/master/day4/Lecture1_MPI_2.pdf) | [Comp. Prob. Set 3c](https://github.com/sischei/OSE2019/blob/master/day4/Exercise_day4.pdf) |
+|  |  |  |  | [Hybrid Parallel 1](https://github.com/sischei/OSE2019/blob/master/day4/Lecture2_hybrid_parallel.pdf) | due M, 7-29, 11pm |
+|  |  |  |  | [Hybrid Parallel 2](https://github.com/sischei/OSE2019/blob/master/day4/Lecture3_hybrid_parallell_DP.pdf) | due M, 7-29, 11pm |
+|  |  |  |  | [High Throughput](https://github.com/sischei/OSE2019/blob/master/day4/Lecture4_high_throughput.pdf) |  |
+|  |  |  |  | [Advanced HPC topics](https://github.com/sischei/OSE2019/blob/master/day4/Lecture_5_advanced_topics.pdf) |  |
+7-19  | F |  |  |  |  |
 
 ### Week 5
 
@@ -83,8 +87,8 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 7-29  | M  |  |  |  |  |
 7-30  | Tu |  |  |  |  |
 7-31  | W  |  |  |  |  |
-8-1   | Th 8-noon | Pandas | Rebekah Dix |  | Comp. Prob. Set 4 |
-8-2   | F 8-noon  | Visualization | Rebekah Dix |  | due M, 8-5, 11pm |
+8-1   | Th 8-noon | Pandas | Rebekah Dix, Jan Ertl |  | Comp. Prob. Set 4 |
+8-2   | F 8-noon  |  | Rebekah Dix, Jan Ertl |  | due M, 8-5, 11pm |
 
 ## References
 
