@@ -88,9 +88,9 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 7-30  | Tu |  |  |  |  |
 7-31  | W  |  |  |  |  |
 8-1   | Th 8-noon | Pandas | Rebekah Dix, Jan Ertl | Pandas 1 | Comp. Prob. Set 4 |
-8-2   | F 8-noon  |  | Rebekah Dix, Jan Ertl | [ACME: Conditioning and Stability]() | due M, 8-5, 11pm |
-|  |  |  | [ACME: Iterative Solvers]() |  |
-|  |  |  | [ACME: Quasi-Newton Method]() |  |
+8-2   | F 8-noon  |  | Rebekah Dix, Jan Ertl | [ACME: Conditioning and Stability](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Conditioning_Stability.pdf) | due M, 8-5, 11pm |
+|  |  |  | [ACME: Iterative Solvers](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/IterativeSolvers.pdf) |  |
+|  |  |  | [ACME: Quasi-Newton Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/QuasiNewton.pdf) |  |
 
 
 ## References
