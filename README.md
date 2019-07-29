@@ -139,7 +139,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, "Applica
 7-30  | T   | Asset Pricing | Heterogeneous Agent Models |  |  |
 7-31  | W   | Asset Pricing | Heterogeneous Agent Models |  |  |
 8-1   | Th  |  |  | Pandas |  |
-8-2   | F   |  |  | Visualization |  |
+8-2   | F   |  |  | Conditioning, Stability, and Quasi-Newton |  |
 
 ### Week 6
 
