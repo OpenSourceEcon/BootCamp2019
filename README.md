@@ -126,7 +126,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, "Applica
 | Date | Day | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-4) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-4) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation#week-4) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-22  | M   | Overlapping generations models | Firm Dynamics |  |  |
-7-23  | T   |  |  | High performance computing |     |
+7-23  | T   |  |  | High performance computing | Marlon Azinovic, University of Zurich (slides, [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3393482)) |
 7-24  | W   | Overlapping generations models | Firm Dynamics |  |  |
 7-25  | Th  |  |  | High performance computing | Lars Hansen, Joseph Huang, University of Chicago |
 7-26  | F   | Overlapping generations models | Firm Dynamics |  |  |
