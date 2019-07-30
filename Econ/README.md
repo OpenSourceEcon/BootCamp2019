@@ -51,7 +51,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | Econ Prob. Set 5 |
+7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | [Notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_Asset/BootcampAssetPricing.pdf) | Econ Prob. Set 5 |
 7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes | Econ Prob. Set 6 |
 7-30  | T 8-10am   | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | Notes | due M, 8-5, 11pm |
 7-30  | T 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Notes |  |
