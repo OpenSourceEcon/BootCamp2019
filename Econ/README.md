@@ -52,7 +52,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-29  | M 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | [Notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_Asset/BootcampAssetPricing.pdf) | [Econ Prob. Set 5](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_Asset/Asset_probset.pdf) |
-7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Aiyagari (2019) | [Econ Prob. Set 6](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_HetAgent/setose1.pdf) |
+7-29  | M 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Aiyagari (2019) | [Econ Prob. Set 6](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_HetAgent/setose1.pdf) |
 7-30  | T 8-10am   | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | [Notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_Asset/BootcampAssetPricing.pdf) | due M, 8-5, 11pm |
 7-30  | T 10-noon | Heterogeneous Agent Models | [Anthony Smith Jr.](http://www.econ.yale.edu/smith/) | Krusell and Smith (1998) |  |
 7-31  | W 8-10am | Asset Pricing | [Scott Condie](https://scottcondie.github.io/) | [Notes](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk5_Asset/BootcampAssetPricing.pdf) |  |
