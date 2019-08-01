@@ -87,8 +87,11 @@ Note that [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/hom
 7-29  | M  |  |  |  |  |
 7-30  | Tu |  |  |  |  |
 7-31  | W  |  |  |  |  |
-8-1   | Th 8-noon | Pandas | Rebekah Dix, Jan Ertl | Pandas 1 | Comp. Prob. Set 4 |
-8-2   | F 8-noon  |  | Rebekah Dix, Jan Ertl | [ACME: Conditioning and Stability](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Conditioning_Stability.pdf) | due M, 8-5, 11pm |
+8-1   | Th 8-noon | Pandas | Rebekah Dix, Jan Ertl | [Pandas 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Pandas1.pdf) | Comp. Prob. Set 4 |
+|  |  |  | [Pandas 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Pandas2.pdf) | due M, 8-5, 11pm |
+|  |  |  | [Pandas 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Pandas3.pdf) |  |
+|  |  |  | [Pandas 4](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Pandas4.pdf) |  |
+8-2   | F 8-noon  |  | Rebekah Dix, Jan Ertl | [ACME: Conditioning and Stability](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/Conditioning_Stability.pdf) |  |
 |  |  |  | [ACME: Iterative Solvers](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/IterativeSolvers.pdf) |  |
 |  |  |  | [ACME: Quasi-Newton Method](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Computation/Wk5_PandSolv/QuasiNewton.pdf) |  |
 
