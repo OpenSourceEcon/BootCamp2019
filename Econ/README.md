@@ -64,13 +64,15 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | Econ Prob. Set 7 |
+8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [ML Intro Slides]() | Econ Prob. Set 7 |
+|  |  |  | [Classification Nbk]() | due M, 8-9, 11pm |
+|  |  |  | [Resampling Nbk]() |  |
 8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | Econ Prob. Set 8 |
-8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes | due M, 8-9, 11pm |
+8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Tree Methods]() | due M, 8-9, 11pm |
 8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
 8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
 8-7  | W 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
-8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
+8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Neural Nets]() |  |
 8-2  | F 8-10am | Concluding discussion |  |  |  |
 
 ## References
