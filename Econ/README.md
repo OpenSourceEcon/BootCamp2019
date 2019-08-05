@@ -64,15 +64,15 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [ML Intro Slides]() | Econ Prob. Set 7 |
-|  |  |  | [Classification Nbk]() | due M, 8-9, 11pm |
-|  |  |  | [Resampling Nbk]() |  |
+8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | ML Intro Slides | [Econ Prob. Set 7](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/ML_probset.pdf) |
+|  |  |  | [Classification Nbk](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Classification/LogitKNN.ipynb) | due M, 8-9, 11pm |
+|  |  |  | [Resampling Nbk](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Resampling/Resampling.ipynb) |  |
 8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | Econ Prob. Set 8 |
-8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Tree Methods]() | due M, 8-9, 11pm |
+8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Tree Methods](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Trees/Trees.ipynb) | due M, 8-9, 11pm |
 8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
-8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | Notes |  |
+8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Support Vector Machines](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/SVM/SVM.ipynb) |  |
 8-7  | W 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
-8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Neural Nets]() |  |
+8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Neural Nets](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/NeuralNet/NeuralNet.ipynb) |  |
 8-2  | F 8-10am | Concluding discussion |  |  |  |
 
 ## References
