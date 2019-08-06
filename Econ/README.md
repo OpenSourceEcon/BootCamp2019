@@ -77,4 +77,10 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 
 ## References
 
+* Athey, Susan, ``The Impact of Machine Learning on Econometrics and Economics,'' keynote presentation, American Economics Association/American Finance Association joint luncheon at the Allied Social Sciences 2019 Annual Meeting, Atlanta, Georgia (January 5, 2019). [[Slides](https://github.com/UC-MACSS/persp-model-econ_W19/blob/master/Slides/Athey2019_AEAAFAv2.pptx)]
+* Athey, Susan, ``[The Impact of Machine Learning on Economics](https://www.nber.org/chapters/c14009.pdf),'' forthcoming in *The Economics of Artificial Intelligence: An Agenda*, eds. Ajay K. Agarwal, Joshua Gans, and Avi Goldfarb, National Bureau of Economic Research (forthcoming).
 * Evans, Richard W. and Jason DeBacker, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, (2019, draft).
+* Géron, Aurélien, *Hands-On Machine Learning with Scikit-Learn & TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*, O'Reilly (2017).
+* Hastie, Trevor, Robert Tibshirani, and Jerome Friedman, [*The Elements of Statistical Learning: Data Mining, Inference, and Prediction*](https://web.stanford.edu/~hastie/Papers/ESLII.pdf), 2nd Edition, Springer (2009).
+* James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An Introduction to Statistical Learning*](http://link.springer.com.proxy.uchicago.edu/book/10.1007%2F978-1-4614-7138-7). New York: Springer.
+* Varian, Hal R., "[How to Build an Economic Model in Your Spare Time](http://people.ischool.berkeley.edu/~hal/Papers/how.pdf)," in *Passion and Craft: Economists at Work*, eds. Michael Szenberg, University of Michigan Press, 1997.
