@@ -146,8 +146,8 @@ Dynamic Structural Economics **Conference** by the Econometric Society, "Applica
 | Date | Day | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-6) (8-10am) | [Econ](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceEcon/BootCamp2019/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 8-5  | M   | Machine Learning | International Models |  |  |
-8-6  | T   | Machine Learning | International Models |  |  |
-8-7  | W   | Machine Learning | International Models |  |  |
+8-6  | T   | Machine Learning | International Models |  | Student Research |
+8-7  | W   | Machine Learning | International Models |  | Virtual Environments |
 8-8  | Th  | Machine Learning |  |  |  |
 8-9  | F   | Concluding discussion |  |  |  |
 
