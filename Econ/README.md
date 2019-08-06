@@ -67,7 +67,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 8-5  | M 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | ML Intro Slides | [Econ Prob. Set 7](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/ML_probset.pdf) |
 |  |  |  |  | [Classification Nbk](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Classification/LogitKNN.ipynb) | due M, 8-9, 11pm |
 |  |  |  |  | [Resampling Nbk](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Resampling/Resampling.ipynb) |  |
-8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes | Econ Prob. Set 8 |
+8-5  | M 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | [Slides 1](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_Intl/lecture1.pdf) | [Econ Prob. Set 8](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_Intl/Intl_probset.pdf) |
 8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Tree Methods](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Trees/Trees.ipynb) | due M, 8-9, 11pm |
 8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
 8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Support Vector Machines](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/SVM/SVM.ipynb) |  |
