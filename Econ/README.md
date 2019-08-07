@@ -71,7 +71,7 @@ Dynamic Structural Economics **Conference** by the Econometric Society, ""
 8-6  | T 8-10am   | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Tree Methods](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/Trees/Trees.ipynb) | due M, 8-9, 11pm |
 8-6  | T 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | [Slides 2](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_Intl/lecture2.pdf) |  |
 8-7  | W 8-10am | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Support Vector Machines](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/SVM/SVM.ipynb) |  |
-8-7  | W 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | Notes |  |
+8-7  | W 10-noon | International Models | [Felix Tintelnot](http://felix-tintelnot.wikidot.com/) | [Slides 3](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_Intl/Lecture3EndogenousNetworks.pdf) |  |
 8-1  | Th  | Machine Learning | [Richard Evans](https://sites.google.com/site/rickecon/) | [Neural Nets](https://github.com/OpenSourceEcon/BootCamp2019/blob/master/Econ/Wk6_ML/NeuralNet/NeuralNet.ipynb) |  |
 8-2  | F 8-10am | Concluding discussion |  |  |  |
 
